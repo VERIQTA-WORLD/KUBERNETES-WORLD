@@ -1,0 +1,1971 @@
+[
+  {
+    "path": "/api/v1/namespaces/{namespace}/persistentvolumeclaims/{name}/status",
+    "method": "GET",
+    "operation_id": "readCoreV1NamespacedPersistentVolumeClaimStatus",
+    "action": "get",
+    "kind": {
+      "group": "",
+      "kind": "PersistentVolumeClaim",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/persistentvolumeclaims/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchCoreV1NamespacedPersistentVolumeClaimStatus",
+    "action": "patch",
+    "kind": {
+      "group": "",
+      "kind": "PersistentVolumeClaim",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/persistentvolumeclaims/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceCoreV1NamespacedPersistentVolumeClaimStatus",
+    "action": "put",
+    "kind": {
+      "group": "",
+      "kind": "PersistentVolumeClaim",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/attach",
+    "method": "GET",
+    "operation_id": "connectCoreV1GetNamespacedPodAttach",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "PodAttachOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/attach",
+    "method": "POST",
+    "operation_id": "connectCoreV1PostNamespacedPodAttach",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "PodAttachOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/binding",
+    "method": "POST",
+    "operation_id": "createCoreV1NamespacedPodBinding",
+    "action": "post",
+    "kind": {
+      "group": "",
+      "kind": "Binding",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/ephemeralcontainers",
+    "method": "GET",
+    "operation_id": "readCoreV1NamespacedPodEphemeralcontainers",
+    "action": "get",
+    "kind": {
+      "group": "",
+      "kind": "Pod",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/ephemeralcontainers",
+    "method": "PATCH",
+    "operation_id": "patchCoreV1NamespacedPodEphemeralcontainers",
+    "action": "patch",
+    "kind": {
+      "group": "",
+      "kind": "Pod",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/ephemeralcontainers",
+    "method": "PUT",
+    "operation_id": "replaceCoreV1NamespacedPodEphemeralcontainers",
+    "action": "put",
+    "kind": {
+      "group": "",
+      "kind": "Pod",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/eviction",
+    "method": "POST",
+    "operation_id": "createCoreV1NamespacedPodEviction",
+    "action": "post",
+    "kind": {
+      "group": "policy",
+      "kind": "Eviction",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/exec",
+    "method": "GET",
+    "operation_id": "connectCoreV1GetNamespacedPodExec",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "PodExecOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/exec",
+    "method": "POST",
+    "operation_id": "connectCoreV1PostNamespacedPodExec",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "PodExecOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/log",
+    "method": "GET",
+    "operation_id": "readCoreV1NamespacedPodLog",
+    "action": "get",
+    "kind": {
+      "group": "",
+      "kind": "Pod",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/portforward",
+    "method": "GET",
+    "operation_id": "connectCoreV1GetNamespacedPodPortforward",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "PodPortForwardOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/portforward",
+    "method": "POST",
+    "operation_id": "connectCoreV1PostNamespacedPodPortforward",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "PodPortForwardOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/proxy",
+    "method": "DELETE",
+    "operation_id": "connectCoreV1DeleteNamespacedPodProxy",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "PodProxyOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/proxy",
+    "method": "GET",
+    "operation_id": "connectCoreV1GetNamespacedPodProxy",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "PodProxyOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/proxy",
+    "method": "PATCH",
+    "operation_id": "connectCoreV1PatchNamespacedPodProxy",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "PodProxyOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/proxy",
+    "method": "POST",
+    "operation_id": "connectCoreV1PostNamespacedPodProxy",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "PodProxyOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/proxy",
+    "method": "PUT",
+    "operation_id": "connectCoreV1PutNamespacedPodProxy",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "PodProxyOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/resize",
+    "method": "GET",
+    "operation_id": "readCoreV1NamespacedPodResize",
+    "action": "get",
+    "kind": {
+      "group": "",
+      "kind": "Pod",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/resize",
+    "method": "PATCH",
+    "operation_id": "patchCoreV1NamespacedPodResize",
+    "action": "patch",
+    "kind": {
+      "group": "",
+      "kind": "Pod",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/resize",
+    "method": "PUT",
+    "operation_id": "replaceCoreV1NamespacedPodResize",
+    "action": "put",
+    "kind": {
+      "group": "",
+      "kind": "Pod",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/status",
+    "method": "GET",
+    "operation_id": "readCoreV1NamespacedPodStatus",
+    "action": "get",
+    "kind": {
+      "group": "",
+      "kind": "Pod",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchCoreV1NamespacedPodStatus",
+    "action": "patch",
+    "kind": {
+      "group": "",
+      "kind": "Pod",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/pods/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceCoreV1NamespacedPodStatus",
+    "action": "put",
+    "kind": {
+      "group": "",
+      "kind": "Pod",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/replicationcontrollers/{name}/scale",
+    "method": "GET",
+    "operation_id": "readCoreV1NamespacedReplicationControllerScale",
+    "action": "get",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "Scale",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/replicationcontrollers/{name}/scale",
+    "method": "PATCH",
+    "operation_id": "patchCoreV1NamespacedReplicationControllerScale",
+    "action": "patch",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "Scale",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/replicationcontrollers/{name}/scale",
+    "method": "PUT",
+    "operation_id": "replaceCoreV1NamespacedReplicationControllerScale",
+    "action": "put",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "Scale",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/replicationcontrollers/{name}/status",
+    "method": "GET",
+    "operation_id": "readCoreV1NamespacedReplicationControllerStatus",
+    "action": "get",
+    "kind": {
+      "group": "",
+      "kind": "ReplicationController",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/replicationcontrollers/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchCoreV1NamespacedReplicationControllerStatus",
+    "action": "patch",
+    "kind": {
+      "group": "",
+      "kind": "ReplicationController",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/replicationcontrollers/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceCoreV1NamespacedReplicationControllerStatus",
+    "action": "put",
+    "kind": {
+      "group": "",
+      "kind": "ReplicationController",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/resourcequotas/{name}/status",
+    "method": "GET",
+    "operation_id": "readCoreV1NamespacedResourceQuotaStatus",
+    "action": "get",
+    "kind": {
+      "group": "",
+      "kind": "ResourceQuota",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/resourcequotas/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchCoreV1NamespacedResourceQuotaStatus",
+    "action": "patch",
+    "kind": {
+      "group": "",
+      "kind": "ResourceQuota",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/resourcequotas/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceCoreV1NamespacedResourceQuotaStatus",
+    "action": "put",
+    "kind": {
+      "group": "",
+      "kind": "ResourceQuota",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/serviceaccounts/{name}/token",
+    "method": "POST",
+    "operation_id": "createCoreV1NamespacedServiceAccountToken",
+    "action": "post",
+    "kind": {
+      "group": "authentication.k8s.io",
+      "kind": "TokenRequest",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/services/{name}/proxy",
+    "method": "DELETE",
+    "operation_id": "connectCoreV1DeleteNamespacedServiceProxy",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "ServiceProxyOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/services/{name}/proxy",
+    "method": "GET",
+    "operation_id": "connectCoreV1GetNamespacedServiceProxy",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "ServiceProxyOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/services/{name}/proxy",
+    "method": "PATCH",
+    "operation_id": "connectCoreV1PatchNamespacedServiceProxy",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "ServiceProxyOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/services/{name}/proxy",
+    "method": "POST",
+    "operation_id": "connectCoreV1PostNamespacedServiceProxy",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "ServiceProxyOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/services/{name}/proxy",
+    "method": "PUT",
+    "operation_id": "connectCoreV1PutNamespacedServiceProxy",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "ServiceProxyOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/services/{name}/status",
+    "method": "GET",
+    "operation_id": "readCoreV1NamespacedServiceStatus",
+    "action": "get",
+    "kind": {
+      "group": "",
+      "kind": "Service",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/services/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchCoreV1NamespacedServiceStatus",
+    "action": "patch",
+    "kind": {
+      "group": "",
+      "kind": "Service",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{namespace}/services/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceCoreV1NamespacedServiceStatus",
+    "action": "put",
+    "kind": {
+      "group": "",
+      "kind": "Service",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{name}/finalize",
+    "method": "PUT",
+    "operation_id": "replaceCoreV1NamespaceFinalize",
+    "action": "put",
+    "kind": {
+      "group": "",
+      "kind": "Namespace",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{name}/status",
+    "method": "GET",
+    "operation_id": "readCoreV1NamespaceStatus",
+    "action": "get",
+    "kind": {
+      "group": "",
+      "kind": "Namespace",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchCoreV1NamespaceStatus",
+    "action": "patch",
+    "kind": {
+      "group": "",
+      "kind": "Namespace",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/namespaces/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceCoreV1NamespaceStatus",
+    "action": "put",
+    "kind": {
+      "group": "",
+      "kind": "Namespace",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/nodes/{name}/proxy",
+    "method": "DELETE",
+    "operation_id": "connectCoreV1DeleteNodeProxy",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "NodeProxyOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/nodes/{name}/proxy",
+    "method": "GET",
+    "operation_id": "connectCoreV1GetNodeProxy",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "NodeProxyOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/nodes/{name}/proxy",
+    "method": "PATCH",
+    "operation_id": "connectCoreV1PatchNodeProxy",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "NodeProxyOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/nodes/{name}/proxy",
+    "method": "POST",
+    "operation_id": "connectCoreV1PostNodeProxy",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "NodeProxyOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/nodes/{name}/proxy",
+    "method": "PUT",
+    "operation_id": "connectCoreV1PutNodeProxy",
+    "action": "connect",
+    "kind": {
+      "group": "",
+      "kind": "NodeProxyOptions",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/nodes/{name}/status",
+    "method": "GET",
+    "operation_id": "readCoreV1NodeStatus",
+    "action": "get",
+    "kind": {
+      "group": "",
+      "kind": "Node",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/nodes/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchCoreV1NodeStatus",
+    "action": "patch",
+    "kind": {
+      "group": "",
+      "kind": "Node",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/nodes/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceCoreV1NodeStatus",
+    "action": "put",
+    "kind": {
+      "group": "",
+      "kind": "Node",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/persistentvolumes/{name}/status",
+    "method": "GET",
+    "operation_id": "readCoreV1PersistentVolumeStatus",
+    "action": "get",
+    "kind": {
+      "group": "",
+      "kind": "PersistentVolume",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/persistentvolumes/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchCoreV1PersistentVolumeStatus",
+    "action": "patch",
+    "kind": {
+      "group": "",
+      "kind": "PersistentVolume",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/api/v1/persistentvolumes/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceCoreV1PersistentVolumeStatus",
+    "action": "put",
+    "kind": {
+      "group": "",
+      "kind": "PersistentVolume",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/admissionregistration.k8s.io/v1/validatingadmissionpolicies/{name}/status",
+    "method": "GET",
+    "operation_id": "readAdmissionregistrationV1ValidatingAdmissionPolicyStatus",
+    "action": "get",
+    "kind": {
+      "group": "admissionregistration.k8s.io",
+      "kind": "ValidatingAdmissionPolicy",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/admissionregistration.k8s.io/v1/validatingadmissionpolicies/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchAdmissionregistrationV1ValidatingAdmissionPolicyStatus",
+    "action": "patch",
+    "kind": {
+      "group": "admissionregistration.k8s.io",
+      "kind": "ValidatingAdmissionPolicy",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/admissionregistration.k8s.io/v1/validatingadmissionpolicies/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceAdmissionregistrationV1ValidatingAdmissionPolicyStatus",
+    "action": "put",
+    "kind": {
+      "group": "admissionregistration.k8s.io",
+      "kind": "ValidatingAdmissionPolicy",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apiextensions.k8s.io/v1/customresourcedefinitions/{name}/status",
+    "method": "GET",
+    "operation_id": "readApiextensionsV1CustomResourceDefinitionStatus",
+    "action": "get",
+    "kind": {
+      "group": "apiextensions.k8s.io",
+      "kind": "CustomResourceDefinition",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apiextensions.k8s.io/v1/customresourcedefinitions/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchApiextensionsV1CustomResourceDefinitionStatus",
+    "action": "patch",
+    "kind": {
+      "group": "apiextensions.k8s.io",
+      "kind": "CustomResourceDefinition",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apiextensions.k8s.io/v1/customresourcedefinitions/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceApiextensionsV1CustomResourceDefinitionStatus",
+    "action": "put",
+    "kind": {
+      "group": "apiextensions.k8s.io",
+      "kind": "CustomResourceDefinition",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apiregistration.k8s.io/v1/apiservices/{name}/status",
+    "method": "GET",
+    "operation_id": "readApiregistrationV1APIServiceStatus",
+    "action": "get",
+    "kind": {
+      "group": "apiregistration.k8s.io",
+      "kind": "APIService",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apiregistration.k8s.io/v1/apiservices/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchApiregistrationV1APIServiceStatus",
+    "action": "patch",
+    "kind": {
+      "group": "apiregistration.k8s.io",
+      "kind": "APIService",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apiregistration.k8s.io/v1/apiservices/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceApiregistrationV1APIServiceStatus",
+    "action": "put",
+    "kind": {
+      "group": "apiregistration.k8s.io",
+      "kind": "APIService",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/daemonsets/{name}/status",
+    "method": "GET",
+    "operation_id": "readAppsV1NamespacedDaemonSetStatus",
+    "action": "get",
+    "kind": {
+      "group": "apps",
+      "kind": "DaemonSet",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/daemonsets/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchAppsV1NamespacedDaemonSetStatus",
+    "action": "patch",
+    "kind": {
+      "group": "apps",
+      "kind": "DaemonSet",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/daemonsets/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceAppsV1NamespacedDaemonSetStatus",
+    "action": "put",
+    "kind": {
+      "group": "apps",
+      "kind": "DaemonSet",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/deployments/{name}/scale",
+    "method": "GET",
+    "operation_id": "readAppsV1NamespacedDeploymentScale",
+    "action": "get",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "Scale",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/deployments/{name}/scale",
+    "method": "PATCH",
+    "operation_id": "patchAppsV1NamespacedDeploymentScale",
+    "action": "patch",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "Scale",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/deployments/{name}/scale",
+    "method": "PUT",
+    "operation_id": "replaceAppsV1NamespacedDeploymentScale",
+    "action": "put",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "Scale",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/deployments/{name}/status",
+    "method": "GET",
+    "operation_id": "readAppsV1NamespacedDeploymentStatus",
+    "action": "get",
+    "kind": {
+      "group": "apps",
+      "kind": "Deployment",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/deployments/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchAppsV1NamespacedDeploymentStatus",
+    "action": "patch",
+    "kind": {
+      "group": "apps",
+      "kind": "Deployment",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/deployments/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceAppsV1NamespacedDeploymentStatus",
+    "action": "put",
+    "kind": {
+      "group": "apps",
+      "kind": "Deployment",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/replicasets/{name}/scale",
+    "method": "GET",
+    "operation_id": "readAppsV1NamespacedReplicaSetScale",
+    "action": "get",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "Scale",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/replicasets/{name}/scale",
+    "method": "PATCH",
+    "operation_id": "patchAppsV1NamespacedReplicaSetScale",
+    "action": "patch",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "Scale",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/replicasets/{name}/scale",
+    "method": "PUT",
+    "operation_id": "replaceAppsV1NamespacedReplicaSetScale",
+    "action": "put",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "Scale",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/replicasets/{name}/status",
+    "method": "GET",
+    "operation_id": "readAppsV1NamespacedReplicaSetStatus",
+    "action": "get",
+    "kind": {
+      "group": "apps",
+      "kind": "ReplicaSet",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/replicasets/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchAppsV1NamespacedReplicaSetStatus",
+    "action": "patch",
+    "kind": {
+      "group": "apps",
+      "kind": "ReplicaSet",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/replicasets/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceAppsV1NamespacedReplicaSetStatus",
+    "action": "put",
+    "kind": {
+      "group": "apps",
+      "kind": "ReplicaSet",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/statefulsets/{name}/scale",
+    "method": "GET",
+    "operation_id": "readAppsV1NamespacedStatefulSetScale",
+    "action": "get",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "Scale",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/statefulsets/{name}/scale",
+    "method": "PATCH",
+    "operation_id": "patchAppsV1NamespacedStatefulSetScale",
+    "action": "patch",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "Scale",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/statefulsets/{name}/scale",
+    "method": "PUT",
+    "operation_id": "replaceAppsV1NamespacedStatefulSetScale",
+    "action": "put",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "Scale",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/statefulsets/{name}/status",
+    "method": "GET",
+    "operation_id": "readAppsV1NamespacedStatefulSetStatus",
+    "action": "get",
+    "kind": {
+      "group": "apps",
+      "kind": "StatefulSet",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/statefulsets/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchAppsV1NamespacedStatefulSetStatus",
+    "action": "patch",
+    "kind": {
+      "group": "apps",
+      "kind": "StatefulSet",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/apps/v1/namespaces/{namespace}/statefulsets/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceAppsV1NamespacedStatefulSetStatus",
+    "action": "put",
+    "kind": {
+      "group": "apps",
+      "kind": "StatefulSet",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/autoscaling/v1/namespaces/{namespace}/horizontalpodautoscalers/{name}/status",
+    "method": "GET",
+    "operation_id": "readAutoscalingV1NamespacedHorizontalPodAutoscalerStatus",
+    "action": "get",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "HorizontalPodAutoscaler",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/autoscaling/v1/namespaces/{namespace}/horizontalpodautoscalers/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchAutoscalingV1NamespacedHorizontalPodAutoscalerStatus",
+    "action": "patch",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "HorizontalPodAutoscaler",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/autoscaling/v1/namespaces/{namespace}/horizontalpodautoscalers/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceAutoscalingV1NamespacedHorizontalPodAutoscalerStatus",
+    "action": "put",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "HorizontalPodAutoscaler",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/autoscaling/v2/namespaces/{namespace}/horizontalpodautoscalers/{name}/status",
+    "method": "GET",
+    "operation_id": "readAutoscalingV2NamespacedHorizontalPodAutoscalerStatus",
+    "action": "get",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "HorizontalPodAutoscaler",
+      "version": "v2"
+    }
+  },
+  {
+    "path": "/apis/autoscaling/v2/namespaces/{namespace}/horizontalpodautoscalers/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchAutoscalingV2NamespacedHorizontalPodAutoscalerStatus",
+    "action": "patch",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "HorizontalPodAutoscaler",
+      "version": "v2"
+    }
+  },
+  {
+    "path": "/apis/autoscaling/v2/namespaces/{namespace}/horizontalpodautoscalers/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceAutoscalingV2NamespacedHorizontalPodAutoscalerStatus",
+    "action": "put",
+    "kind": {
+      "group": "autoscaling",
+      "kind": "HorizontalPodAutoscaler",
+      "version": "v2"
+    }
+  },
+  {
+    "path": "/apis/batch/v1/namespaces/{namespace}/cronjobs/{name}/status",
+    "method": "GET",
+    "operation_id": "readBatchV1NamespacedCronJobStatus",
+    "action": "get",
+    "kind": {
+      "group": "batch",
+      "kind": "CronJob",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/batch/v1/namespaces/{namespace}/cronjobs/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchBatchV1NamespacedCronJobStatus",
+    "action": "patch",
+    "kind": {
+      "group": "batch",
+      "kind": "CronJob",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/batch/v1/namespaces/{namespace}/cronjobs/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceBatchV1NamespacedCronJobStatus",
+    "action": "put",
+    "kind": {
+      "group": "batch",
+      "kind": "CronJob",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/batch/v1/namespaces/{namespace}/jobs/{name}/status",
+    "method": "GET",
+    "operation_id": "readBatchV1NamespacedJobStatus",
+    "action": "get",
+    "kind": {
+      "group": "batch",
+      "kind": "Job",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/batch/v1/namespaces/{namespace}/jobs/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchBatchV1NamespacedJobStatus",
+    "action": "patch",
+    "kind": {
+      "group": "batch",
+      "kind": "Job",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/batch/v1/namespaces/{namespace}/jobs/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceBatchV1NamespacedJobStatus",
+    "action": "put",
+    "kind": {
+      "group": "batch",
+      "kind": "Job",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/certificates.k8s.io/v1/certificatesigningrequests/{name}/approval",
+    "method": "GET",
+    "operation_id": "readCertificatesV1CertificateSigningRequestApproval",
+    "action": "get",
+    "kind": {
+      "group": "certificates.k8s.io",
+      "kind": "CertificateSigningRequest",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/certificates.k8s.io/v1/certificatesigningrequests/{name}/approval",
+    "method": "PATCH",
+    "operation_id": "patchCertificatesV1CertificateSigningRequestApproval",
+    "action": "patch",
+    "kind": {
+      "group": "certificates.k8s.io",
+      "kind": "CertificateSigningRequest",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/certificates.k8s.io/v1/certificatesigningrequests/{name}/approval",
+    "method": "PUT",
+    "operation_id": "replaceCertificatesV1CertificateSigningRequestApproval",
+    "action": "put",
+    "kind": {
+      "group": "certificates.k8s.io",
+      "kind": "CertificateSigningRequest",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/certificates.k8s.io/v1/certificatesigningrequests/{name}/status",
+    "method": "GET",
+    "operation_id": "readCertificatesV1CertificateSigningRequestStatus",
+    "action": "get",
+    "kind": {
+      "group": "certificates.k8s.io",
+      "kind": "CertificateSigningRequest",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/certificates.k8s.io/v1/certificatesigningrequests/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchCertificatesV1CertificateSigningRequestStatus",
+    "action": "patch",
+    "kind": {
+      "group": "certificates.k8s.io",
+      "kind": "CertificateSigningRequest",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/certificates.k8s.io/v1/certificatesigningrequests/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceCertificatesV1CertificateSigningRequestStatus",
+    "action": "put",
+    "kind": {
+      "group": "certificates.k8s.io",
+      "kind": "CertificateSigningRequest",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/certificates.k8s.io/v1/namespaces/{namespace}/podcertificaterequests/{name}/status",
+    "method": "GET",
+    "operation_id": "readCertificatesV1NamespacedPodCertificateRequestStatus",
+    "action": "get",
+    "kind": {
+      "group": "certificates.k8s.io",
+      "kind": "PodCertificateRequest",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/certificates.k8s.io/v1/namespaces/{namespace}/podcertificaterequests/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchCertificatesV1NamespacedPodCertificateRequestStatus",
+    "action": "patch",
+    "kind": {
+      "group": "certificates.k8s.io",
+      "kind": "PodCertificateRequest",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/certificates.k8s.io/v1/namespaces/{namespace}/podcertificaterequests/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceCertificatesV1NamespacedPodCertificateRequestStatus",
+    "action": "put",
+    "kind": {
+      "group": "certificates.k8s.io",
+      "kind": "PodCertificateRequest",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/certificates.k8s.io/v1beta1/namespaces/{namespace}/podcertificaterequests/{name}/status",
+    "method": "GET",
+    "operation_id": "readCertificatesV1beta1NamespacedPodCertificateRequestStatus",
+    "action": "get",
+    "kind": {
+      "group": "certificates.k8s.io",
+      "kind": "PodCertificateRequest",
+      "version": "v1beta1"
+    }
+  },
+  {
+    "path": "/apis/certificates.k8s.io/v1beta1/namespaces/{namespace}/podcertificaterequests/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchCertificatesV1beta1NamespacedPodCertificateRequestStatus",
+    "action": "patch",
+    "kind": {
+      "group": "certificates.k8s.io",
+      "kind": "PodCertificateRequest",
+      "version": "v1beta1"
+    }
+  },
+  {
+    "path": "/apis/certificates.k8s.io/v1beta1/namespaces/{namespace}/podcertificaterequests/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceCertificatesV1beta1NamespacedPodCertificateRequestStatus",
+    "action": "put",
+    "kind": {
+      "group": "certificates.k8s.io",
+      "kind": "PodCertificateRequest",
+      "version": "v1beta1"
+    }
+  },
+  {
+    "path": "/apis/flowcontrol.apiserver.k8s.io/v1/flowschemas/{name}/status",
+    "method": "GET",
+    "operation_id": "readFlowcontrolApiserverV1FlowSchemaStatus",
+    "action": "get",
+    "kind": {
+      "group": "flowcontrol.apiserver.k8s.io",
+      "kind": "FlowSchema",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/flowcontrol.apiserver.k8s.io/v1/flowschemas/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchFlowcontrolApiserverV1FlowSchemaStatus",
+    "action": "patch",
+    "kind": {
+      "group": "flowcontrol.apiserver.k8s.io",
+      "kind": "FlowSchema",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/flowcontrol.apiserver.k8s.io/v1/flowschemas/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceFlowcontrolApiserverV1FlowSchemaStatus",
+    "action": "put",
+    "kind": {
+      "group": "flowcontrol.apiserver.k8s.io",
+      "kind": "FlowSchema",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/flowcontrol.apiserver.k8s.io/v1/prioritylevelconfigurations/{name}/status",
+    "method": "GET",
+    "operation_id": "readFlowcontrolApiserverV1PriorityLevelConfigurationStatus",
+    "action": "get",
+    "kind": {
+      "group": "flowcontrol.apiserver.k8s.io",
+      "kind": "PriorityLevelConfiguration",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/flowcontrol.apiserver.k8s.io/v1/prioritylevelconfigurations/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchFlowcontrolApiserverV1PriorityLevelConfigurationStatus",
+    "action": "patch",
+    "kind": {
+      "group": "flowcontrol.apiserver.k8s.io",
+      "kind": "PriorityLevelConfiguration",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/flowcontrol.apiserver.k8s.io/v1/prioritylevelconfigurations/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceFlowcontrolApiserverV1PriorityLevelConfigurationStatus",
+    "action": "put",
+    "kind": {
+      "group": "flowcontrol.apiserver.k8s.io",
+      "kind": "PriorityLevelConfiguration",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/internal.apiserver.k8s.io/v1alpha1/storageversions/{name}/status",
+    "method": "GET",
+    "operation_id": "readInternalApiserverV1alpha1StorageVersionStatus",
+    "action": "get",
+    "kind": {
+      "group": "internal.apiserver.k8s.io",
+      "kind": "StorageVersion",
+      "version": "v1alpha1"
+    }
+  },
+  {
+    "path": "/apis/internal.apiserver.k8s.io/v1alpha1/storageversions/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchInternalApiserverV1alpha1StorageVersionStatus",
+    "action": "patch",
+    "kind": {
+      "group": "internal.apiserver.k8s.io",
+      "kind": "StorageVersion",
+      "version": "v1alpha1"
+    }
+  },
+  {
+    "path": "/apis/internal.apiserver.k8s.io/v1alpha1/storageversions/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceInternalApiserverV1alpha1StorageVersionStatus",
+    "action": "put",
+    "kind": {
+      "group": "internal.apiserver.k8s.io",
+      "kind": "StorageVersion",
+      "version": "v1alpha1"
+    }
+  },
+  {
+    "path": "/apis/lifecycle.k8s.io/v1alpha1/namespaces/{namespace}/evictionrequests/{name}/status",
+    "method": "GET",
+    "operation_id": "readLifecycleV1alpha1NamespacedEvictionRequestStatus",
+    "action": "get",
+    "kind": {
+      "group": "lifecycle.k8s.io",
+      "kind": "EvictionRequest",
+      "version": "v1alpha1"
+    }
+  },
+  {
+    "path": "/apis/lifecycle.k8s.io/v1alpha1/namespaces/{namespace}/evictionrequests/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchLifecycleV1alpha1NamespacedEvictionRequestStatus",
+    "action": "patch",
+    "kind": {
+      "group": "lifecycle.k8s.io",
+      "kind": "EvictionRequest",
+      "version": "v1alpha1"
+    }
+  },
+  {
+    "path": "/apis/lifecycle.k8s.io/v1alpha1/namespaces/{namespace}/evictionrequests/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceLifecycleV1alpha1NamespacedEvictionRequestStatus",
+    "action": "put",
+    "kind": {
+      "group": "lifecycle.k8s.io",
+      "kind": "EvictionRequest",
+      "version": "v1alpha1"
+    }
+  },
+  {
+    "path": "/apis/lifecycle.k8s.io/v1alpha1/namespaces/{namespace}/evictions/{name}/status",
+    "method": "GET",
+    "operation_id": "readLifecycleV1alpha1NamespacedEvictionStatus",
+    "action": "get",
+    "kind": {
+      "group": "lifecycle.k8s.io",
+      "kind": "Eviction",
+      "version": "v1alpha1"
+    }
+  },
+  {
+    "path": "/apis/lifecycle.k8s.io/v1alpha1/namespaces/{namespace}/evictions/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchLifecycleV1alpha1NamespacedEvictionStatus",
+    "action": "patch",
+    "kind": {
+      "group": "lifecycle.k8s.io",
+      "kind": "Eviction",
+      "version": "v1alpha1"
+    }
+  },
+  {
+    "path": "/apis/lifecycle.k8s.io/v1alpha1/namespaces/{namespace}/evictions/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceLifecycleV1alpha1NamespacedEvictionStatus",
+    "action": "put",
+    "kind": {
+      "group": "lifecycle.k8s.io",
+      "kind": "Eviction",
+      "version": "v1alpha1"
+    }
+  },
+  {
+    "path": "/apis/networking.k8s.io/v1/namespaces/{namespace}/ingresses/{name}/status",
+    "method": "GET",
+    "operation_id": "readNetworkingV1NamespacedIngressStatus",
+    "action": "get",
+    "kind": {
+      "group": "networking.k8s.io",
+      "kind": "Ingress",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/networking.k8s.io/v1/namespaces/{namespace}/ingresses/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchNetworkingV1NamespacedIngressStatus",
+    "action": "patch",
+    "kind": {
+      "group": "networking.k8s.io",
+      "kind": "Ingress",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/networking.k8s.io/v1/namespaces/{namespace}/ingresses/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceNetworkingV1NamespacedIngressStatus",
+    "action": "put",
+    "kind": {
+      "group": "networking.k8s.io",
+      "kind": "Ingress",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/networking.k8s.io/v1/servicecidrs/{name}/status",
+    "method": "GET",
+    "operation_id": "readNetworkingV1ServiceCIDRStatus",
+    "action": "get",
+    "kind": {
+      "group": "networking.k8s.io",
+      "kind": "ServiceCIDR",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/networking.k8s.io/v1/servicecidrs/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchNetworkingV1ServiceCIDRStatus",
+    "action": "patch",
+    "kind": {
+      "group": "networking.k8s.io",
+      "kind": "ServiceCIDR",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/networking.k8s.io/v1/servicecidrs/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceNetworkingV1ServiceCIDRStatus",
+    "action": "put",
+    "kind": {
+      "group": "networking.k8s.io",
+      "kind": "ServiceCIDR",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/policy/v1/namespaces/{namespace}/poddisruptionbudgets/{name}/status",
+    "method": "GET",
+    "operation_id": "readPolicyV1NamespacedPodDisruptionBudgetStatus",
+    "action": "get",
+    "kind": {
+      "group": "policy",
+      "kind": "PodDisruptionBudget",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/policy/v1/namespaces/{namespace}/poddisruptionbudgets/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchPolicyV1NamespacedPodDisruptionBudgetStatus",
+    "action": "patch",
+    "kind": {
+      "group": "policy",
+      "kind": "PodDisruptionBudget",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/policy/v1/namespaces/{namespace}/poddisruptionbudgets/{name}/status",
+    "method": "PUT",
+    "operation_id": "replacePolicyV1NamespacedPodDisruptionBudgetStatus",
+    "action": "put",
+    "kind": {
+      "group": "policy",
+      "kind": "PodDisruptionBudget",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1/devicetaintrules/{name}/status",
+    "method": "GET",
+    "operation_id": "readResourceV1DeviceTaintRuleStatus",
+    "action": "get",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "DeviceTaintRule",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1/devicetaintrules/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchResourceV1DeviceTaintRuleStatus",
+    "action": "patch",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "DeviceTaintRule",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1/devicetaintrules/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceResourceV1DeviceTaintRuleStatus",
+    "action": "put",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "DeviceTaintRule",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1/namespaces/{namespace}/resourceclaims/{name}/status",
+    "method": "GET",
+    "operation_id": "readResourceV1NamespacedResourceClaimStatus",
+    "action": "get",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "ResourceClaim",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1/namespaces/{namespace}/resourceclaims/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchResourceV1NamespacedResourceClaimStatus",
+    "action": "patch",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "ResourceClaim",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1/namespaces/{namespace}/resourceclaims/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceResourceV1NamespacedResourceClaimStatus",
+    "action": "put",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "ResourceClaim",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1alpha3/devicetaintrules/{name}/status",
+    "method": "GET",
+    "operation_id": "readResourceV1alpha3DeviceTaintRuleStatus",
+    "action": "get",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "DeviceTaintRule",
+      "version": "v1alpha3"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1alpha3/devicetaintrules/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchResourceV1alpha3DeviceTaintRuleStatus",
+    "action": "patch",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "DeviceTaintRule",
+      "version": "v1alpha3"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1alpha3/devicetaintrules/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceResourceV1alpha3DeviceTaintRuleStatus",
+    "action": "put",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "DeviceTaintRule",
+      "version": "v1alpha3"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1alpha3/resourcepoolstatusrequests/{name}/status",
+    "method": "GET",
+    "operation_id": "readResourceV1alpha3ResourcePoolStatusRequestStatus",
+    "action": "get",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "ResourcePoolStatusRequest",
+      "version": "v1alpha3"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1alpha3/resourcepoolstatusrequests/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchResourceV1alpha3ResourcePoolStatusRequestStatus",
+    "action": "patch",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "ResourcePoolStatusRequest",
+      "version": "v1alpha3"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1alpha3/resourcepoolstatusrequests/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceResourceV1alpha3ResourcePoolStatusRequestStatus",
+    "action": "put",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "ResourcePoolStatusRequest",
+      "version": "v1alpha3"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1beta1/namespaces/{namespace}/resourceclaims/{name}/status",
+    "method": "GET",
+    "operation_id": "readResourceV1beta1NamespacedResourceClaimStatus",
+    "action": "get",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "ResourceClaim",
+      "version": "v1beta1"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1beta1/namespaces/{namespace}/resourceclaims/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchResourceV1beta1NamespacedResourceClaimStatus",
+    "action": "patch",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "ResourceClaim",
+      "version": "v1beta1"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1beta1/namespaces/{namespace}/resourceclaims/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceResourceV1beta1NamespacedResourceClaimStatus",
+    "action": "put",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "ResourceClaim",
+      "version": "v1beta1"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1beta2/devicetaintrules/{name}/status",
+    "method": "GET",
+    "operation_id": "readResourceV1beta2DeviceTaintRuleStatus",
+    "action": "get",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "DeviceTaintRule",
+      "version": "v1beta2"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1beta2/devicetaintrules/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchResourceV1beta2DeviceTaintRuleStatus",
+    "action": "patch",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "DeviceTaintRule",
+      "version": "v1beta2"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1beta2/devicetaintrules/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceResourceV1beta2DeviceTaintRuleStatus",
+    "action": "put",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "DeviceTaintRule",
+      "version": "v1beta2"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1beta2/namespaces/{namespace}/resourceclaims/{name}/status",
+    "method": "GET",
+    "operation_id": "readResourceV1beta2NamespacedResourceClaimStatus",
+    "action": "get",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "ResourceClaim",
+      "version": "v1beta2"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1beta2/namespaces/{namespace}/resourceclaims/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchResourceV1beta2NamespacedResourceClaimStatus",
+    "action": "patch",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "ResourceClaim",
+      "version": "v1beta2"
+    }
+  },
+  {
+    "path": "/apis/resource.k8s.io/v1beta2/namespaces/{namespace}/resourceclaims/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceResourceV1beta2NamespacedResourceClaimStatus",
+    "action": "put",
+    "kind": {
+      "group": "resource.k8s.io",
+      "kind": "ResourceClaim",
+      "version": "v1beta2"
+    }
+  },
+  {
+    "path": "/apis/scheduling.k8s.io/v1alpha3/namespaces/{namespace}/compositepodgroups/{name}/status",
+    "method": "GET",
+    "operation_id": "readSchedulingV1alpha3NamespacedCompositePodGroupStatus",
+    "action": "get",
+    "kind": {
+      "group": "scheduling.k8s.io",
+      "kind": "CompositePodGroup",
+      "version": "v1alpha3"
+    }
+  },
+  {
+    "path": "/apis/scheduling.k8s.io/v1alpha3/namespaces/{namespace}/compositepodgroups/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchSchedulingV1alpha3NamespacedCompositePodGroupStatus",
+    "action": "patch",
+    "kind": {
+      "group": "scheduling.k8s.io",
+      "kind": "CompositePodGroup",
+      "version": "v1alpha3"
+    }
+  },
+  {
+    "path": "/apis/scheduling.k8s.io/v1alpha3/namespaces/{namespace}/compositepodgroups/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceSchedulingV1alpha3NamespacedCompositePodGroupStatus",
+    "action": "put",
+    "kind": {
+      "group": "scheduling.k8s.io",
+      "kind": "CompositePodGroup",
+      "version": "v1alpha3"
+    }
+  },
+  {
+    "path": "/apis/scheduling.k8s.io/v1alpha3/namespaces/{namespace}/podgroups/{name}/status",
+    "method": "GET",
+    "operation_id": "readSchedulingV1alpha3NamespacedPodGroupStatus",
+    "action": "get",
+    "kind": {
+      "group": "scheduling.k8s.io",
+      "kind": "PodGroup",
+      "version": "v1alpha3"
+    }
+  },
+  {
+    "path": "/apis/scheduling.k8s.io/v1alpha3/namespaces/{namespace}/podgroups/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchSchedulingV1alpha3NamespacedPodGroupStatus",
+    "action": "patch",
+    "kind": {
+      "group": "scheduling.k8s.io",
+      "kind": "PodGroup",
+      "version": "v1alpha3"
+    }
+  },
+  {
+    "path": "/apis/scheduling.k8s.io/v1alpha3/namespaces/{namespace}/podgroups/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceSchedulingV1alpha3NamespacedPodGroupStatus",
+    "action": "put",
+    "kind": {
+      "group": "scheduling.k8s.io",
+      "kind": "PodGroup",
+      "version": "v1alpha3"
+    }
+  },
+  {
+    "path": "/apis/scheduling.k8s.io/v1beta1/namespaces/{namespace}/podgroups/{name}/status",
+    "method": "GET",
+    "operation_id": "readSchedulingV1beta1NamespacedPodGroupStatus",
+    "action": "get",
+    "kind": {
+      "group": "scheduling.k8s.io",
+      "kind": "PodGroup",
+      "version": "v1beta1"
+    }
+  },
+  {
+    "path": "/apis/scheduling.k8s.io/v1beta1/namespaces/{namespace}/podgroups/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchSchedulingV1beta1NamespacedPodGroupStatus",
+    "action": "patch",
+    "kind": {
+      "group": "scheduling.k8s.io",
+      "kind": "PodGroup",
+      "version": "v1beta1"
+    }
+  },
+  {
+    "path": "/apis/scheduling.k8s.io/v1beta1/namespaces/{namespace}/podgroups/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceSchedulingV1beta1NamespacedPodGroupStatus",
+    "action": "put",
+    "kind": {
+      "group": "scheduling.k8s.io",
+      "kind": "PodGroup",
+      "version": "v1beta1"
+    }
+  },
+  {
+    "path": "/apis/storage.k8s.io/v1/csinodes/{name}/status",
+    "method": "GET",
+    "operation_id": "readStorageV1CSINodeStatus",
+    "action": "get",
+    "kind": {
+      "group": "storage.k8s.io",
+      "kind": "CSINode",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/storage.k8s.io/v1/csinodes/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchStorageV1CSINodeStatus",
+    "action": "patch",
+    "kind": {
+      "group": "storage.k8s.io",
+      "kind": "CSINode",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/storage.k8s.io/v1/csinodes/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceStorageV1CSINodeStatus",
+    "action": "put",
+    "kind": {
+      "group": "storage.k8s.io",
+      "kind": "CSINode",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/storage.k8s.io/v1/volumeattachments/{name}/status",
+    "method": "GET",
+    "operation_id": "readStorageV1VolumeAttachmentStatus",
+    "action": "get",
+    "kind": {
+      "group": "storage.k8s.io",
+      "kind": "VolumeAttachment",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/storage.k8s.io/v1/volumeattachments/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchStorageV1VolumeAttachmentStatus",
+    "action": "patch",
+    "kind": {
+      "group": "storage.k8s.io",
+      "kind": "VolumeAttachment",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/storage.k8s.io/v1/volumeattachments/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceStorageV1VolumeAttachmentStatus",
+    "action": "put",
+    "kind": {
+      "group": "storage.k8s.io",
+      "kind": "VolumeAttachment",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/storagemigration.k8s.io/v1/storageversionmigrations/{name}/status",
+    "method": "GET",
+    "operation_id": "readStoragemigrationV1StorageVersionMigrationStatus",
+    "action": "get",
+    "kind": {
+      "group": "storagemigration.k8s.io",
+      "kind": "StorageVersionMigration",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/storagemigration.k8s.io/v1/storageversionmigrations/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchStoragemigrationV1StorageVersionMigrationStatus",
+    "action": "patch",
+    "kind": {
+      "group": "storagemigration.k8s.io",
+      "kind": "StorageVersionMigration",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/storagemigration.k8s.io/v1/storageversionmigrations/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceStoragemigrationV1StorageVersionMigrationStatus",
+    "action": "put",
+    "kind": {
+      "group": "storagemigration.k8s.io",
+      "kind": "StorageVersionMigration",
+      "version": "v1"
+    }
+  },
+  {
+    "path": "/apis/storagemigration.k8s.io/v1beta1/storageversionmigrations/{name}/status",
+    "method": "GET",
+    "operation_id": "readStoragemigrationV1beta1StorageVersionMigrationStatus",
+    "action": "get",
+    "kind": {
+      "group": "storagemigration.k8s.io",
+      "kind": "StorageVersionMigration",
+      "version": "v1beta1"
+    }
+  },
+  {
+    "path": "/apis/storagemigration.k8s.io/v1beta1/storageversionmigrations/{name}/status",
+    "method": "PATCH",
+    "operation_id": "patchStoragemigrationV1beta1StorageVersionMigrationStatus",
+    "action": "patch",
+    "kind": {
+      "group": "storagemigration.k8s.io",
+      "kind": "StorageVersionMigration",
+      "version": "v1beta1"
+    }
+  },
+  {
+    "path": "/apis/storagemigration.k8s.io/v1beta1/storageversionmigrations/{name}/status",
+    "method": "PUT",
+    "operation_id": "replaceStoragemigrationV1beta1StorageVersionMigrationStatus",
+    "action": "put",
+    "kind": {
+      "group": "storagemigration.k8s.io",
+      "kind": "StorageVersionMigration",
+      "version": "v1beta1"
+    }
+  }
+]

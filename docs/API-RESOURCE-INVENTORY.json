@@ -1,0 +1,1511 @@
+{
+  "source": {
+    "version": "v1.37.1",
+    "url": "https://raw.githubusercontent.com/kubernetes/kubernetes/v1.37.1/api/openapi-spec/swagger.json"
+  },
+  "resources": [
+    {
+      "group": "admissionregistration.k8s.io",
+      "kind": "MutatingAdmissionPolicy",
+      "versions": [
+        "v1",
+        "v1alpha1",
+        "v1beta1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "mutatingadmissionpolicies",
+      "paths": [
+        "/apis/admissionregistration.k8s.io/v1/mutatingadmissionpolicies",
+        "/apis/admissionregistration.k8s.io/v1alpha1/mutatingadmissionpolicies",
+        "/apis/admissionregistration.k8s.io/v1beta1/mutatingadmissionpolicies"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "admissionregistration.k8s.io",
+      "kind": "MutatingAdmissionPolicyBinding",
+      "versions": [
+        "v1",
+        "v1alpha1",
+        "v1beta1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "mutatingadmissionpolicybindings",
+      "paths": [
+        "/apis/admissionregistration.k8s.io/v1/mutatingadmissionpolicybindings",
+        "/apis/admissionregistration.k8s.io/v1alpha1/mutatingadmissionpolicybindings",
+        "/apis/admissionregistration.k8s.io/v1beta1/mutatingadmissionpolicybindings"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "admissionregistration.k8s.io",
+      "kind": "MutatingWebhookConfiguration",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "mutatingwebhookconfigurations",
+      "paths": [
+        "/apis/admissionregistration.k8s.io/v1/mutatingwebhookconfigurations"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "admissionregistration.k8s.io",
+      "kind": "ValidatingAdmissionPolicy",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "validatingadmissionpolicies",
+      "paths": [
+        "/apis/admissionregistration.k8s.io/v1/validatingadmissionpolicies"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "admissionregistration.k8s.io",
+      "kind": "ValidatingAdmissionPolicyBinding",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "validatingadmissionpolicybindings",
+      "paths": [
+        "/apis/admissionregistration.k8s.io/v1/validatingadmissionpolicybindings"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "admissionregistration.k8s.io",
+      "kind": "ValidatingWebhookConfiguration",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "validatingwebhookconfigurations",
+      "paths": [
+        "/apis/admissionregistration.k8s.io/v1/validatingwebhookconfigurations"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "apiextensions.k8s.io",
+      "kind": "CustomResourceDefinition",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "customresourcedefinitions",
+      "paths": [
+        "/apis/apiextensions.k8s.io/v1/customresourcedefinitions"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "apiregistration.k8s.io",
+      "kind": "APIService",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "apiservices",
+      "paths": [
+        "/apis/apiregistration.k8s.io/v1/apiservices"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "apps",
+      "kind": "ControllerRevision",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "controllerrevisions",
+      "paths": [
+        "/apis/apps/v1/controllerrevisions",
+        "/apis/apps/v1/namespaces/{namespace}/controllerrevisions"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "apps",
+      "kind": "DaemonSet",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "daemonsets",
+      "paths": [
+        "/apis/apps/v1/daemonsets",
+        "/apis/apps/v1/namespaces/{namespace}/daemonsets"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "apps",
+      "kind": "Deployment",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "deployments",
+      "paths": [
+        "/apis/apps/v1/deployments",
+        "/apis/apps/v1/namespaces/{namespace}/deployments"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "apps",
+      "kind": "ReplicaSet",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "replicasets",
+      "paths": [
+        "/apis/apps/v1/namespaces/{namespace}/replicasets",
+        "/apis/apps/v1/replicasets"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "apps",
+      "kind": "StatefulSet",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "statefulsets",
+      "paths": [
+        "/apis/apps/v1/namespaces/{namespace}/statefulsets",
+        "/apis/apps/v1/statefulsets"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "authentication.k8s.io",
+      "kind": "SelfSubjectReview",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "selfsubjectreviews",
+      "paths": [
+        "/apis/authentication.k8s.io/v1/selfsubjectreviews"
+      ],
+      "actions": [
+        "post"
+      ]
+    },
+    {
+      "group": "authentication.k8s.io",
+      "kind": "TokenReview",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "tokenreviews",
+      "paths": [
+        "/apis/authentication.k8s.io/v1/tokenreviews"
+      ],
+      "actions": [
+        "post"
+      ]
+    },
+    {
+      "group": "authorization.k8s.io",
+      "kind": "LocalSubjectAccessReview",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "localsubjectaccessreviews",
+      "paths": [
+        "/apis/authorization.k8s.io/v1/namespaces/{namespace}/localsubjectaccessreviews"
+      ],
+      "actions": [
+        "post"
+      ]
+    },
+    {
+      "group": "authorization.k8s.io",
+      "kind": "SelfSubjectAccessReview",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "selfsubjectaccessreviews",
+      "paths": [
+        "/apis/authorization.k8s.io/v1/selfsubjectaccessreviews"
+      ],
+      "actions": [
+        "post"
+      ]
+    },
+    {
+      "group": "authorization.k8s.io",
+      "kind": "SelfSubjectRulesReview",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "selfsubjectrulesreviews",
+      "paths": [
+        "/apis/authorization.k8s.io/v1/selfsubjectrulesreviews"
+      ],
+      "actions": [
+        "post"
+      ]
+    },
+    {
+      "group": "authorization.k8s.io",
+      "kind": "SubjectAccessReview",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "subjectaccessreviews",
+      "paths": [
+        "/apis/authorization.k8s.io/v1/subjectaccessreviews"
+      ],
+      "actions": [
+        "post"
+      ]
+    },
+    {
+      "group": "autoscaling",
+      "kind": "HorizontalPodAutoscaler",
+      "versions": [
+        "v1",
+        "v2"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "horizontalpodautoscalers",
+      "paths": [
+        "/apis/autoscaling/v1/horizontalpodautoscalers",
+        "/apis/autoscaling/v1/namespaces/{namespace}/horizontalpodautoscalers",
+        "/apis/autoscaling/v2/horizontalpodautoscalers",
+        "/apis/autoscaling/v2/namespaces/{namespace}/horizontalpodautoscalers"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "batch",
+      "kind": "CronJob",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "cronjobs",
+      "paths": [
+        "/apis/batch/v1/cronjobs",
+        "/apis/batch/v1/namespaces/{namespace}/cronjobs"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "batch",
+      "kind": "Job",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "jobs",
+      "paths": [
+        "/apis/batch/v1/jobs",
+        "/apis/batch/v1/namespaces/{namespace}/jobs"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "certificates.k8s.io",
+      "kind": "CertificateSigningRequest",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "certificatesigningrequests",
+      "paths": [
+        "/apis/certificates.k8s.io/v1/certificatesigningrequests"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "certificates.k8s.io",
+      "kind": "ClusterTrustBundle",
+      "versions": [
+        "v1",
+        "v1beta1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "clustertrustbundles",
+      "paths": [
+        "/apis/certificates.k8s.io/v1/clustertrustbundles",
+        "/apis/certificates.k8s.io/v1beta1/clustertrustbundles"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "certificates.k8s.io",
+      "kind": "PodCertificateRequest",
+      "versions": [
+        "v1",
+        "v1beta1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "podcertificaterequests",
+      "paths": [
+        "/apis/certificates.k8s.io/v1/namespaces/{namespace}/podcertificaterequests",
+        "/apis/certificates.k8s.io/v1/podcertificaterequests",
+        "/apis/certificates.k8s.io/v1beta1/namespaces/{namespace}/podcertificaterequests",
+        "/apis/certificates.k8s.io/v1beta1/podcertificaterequests"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "coordination.k8s.io",
+      "kind": "Lease",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "leases",
+      "paths": [
+        "/apis/coordination.k8s.io/v1/leases",
+        "/apis/coordination.k8s.io/v1/namespaces/{namespace}/leases"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "coordination.k8s.io",
+      "kind": "LeaseCandidate",
+      "versions": [
+        "v1alpha2",
+        "v1beta1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "leasecandidates",
+      "paths": [
+        "/apis/coordination.k8s.io/v1alpha2/leasecandidates",
+        "/apis/coordination.k8s.io/v1alpha2/namespaces/{namespace}/leasecandidates",
+        "/apis/coordination.k8s.io/v1beta1/leasecandidates",
+        "/apis/coordination.k8s.io/v1beta1/namespaces/{namespace}/leasecandidates"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "Binding",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "bindings",
+      "paths": [
+        "/api/v1/namespaces/{namespace}/bindings"
+      ],
+      "actions": [
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "ComponentStatus",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "componentstatuses",
+      "paths": [
+        "/api/v1/componentstatuses"
+      ],
+      "actions": [
+        "list"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "ConfigMap",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "configmaps",
+      "paths": [
+        "/api/v1/configmaps",
+        "/api/v1/namespaces/{namespace}/configmaps"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "Endpoints",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "endpoints",
+      "paths": [
+        "/api/v1/endpoints",
+        "/api/v1/namespaces/{namespace}/endpoints"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "Event",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "events",
+      "paths": [
+        "/api/v1/events",
+        "/api/v1/namespaces/{namespace}/events"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "LimitRange",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "limitranges",
+      "paths": [
+        "/api/v1/limitranges",
+        "/api/v1/namespaces/{namespace}/limitranges"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "Namespace",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "namespaces",
+      "paths": [
+        "/api/v1/namespaces"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "Node",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "nodes",
+      "paths": [
+        "/api/v1/nodes"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "PersistentVolume",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "persistentvolumes",
+      "paths": [
+        "/api/v1/persistentvolumes"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "PersistentVolumeClaim",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "persistentvolumeclaims",
+      "paths": [
+        "/api/v1/namespaces/{namespace}/persistentvolumeclaims",
+        "/api/v1/persistentvolumeclaims"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "Pod",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "pods",
+      "paths": [
+        "/api/v1/namespaces/{namespace}/pods",
+        "/api/v1/pods"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "PodTemplate",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "podtemplates",
+      "paths": [
+        "/api/v1/namespaces/{namespace}/podtemplates",
+        "/api/v1/podtemplates"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "ReplicationController",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "replicationcontrollers",
+      "paths": [
+        "/api/v1/namespaces/{namespace}/replicationcontrollers",
+        "/api/v1/replicationcontrollers"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "ResourceQuota",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "resourcequotas",
+      "paths": [
+        "/api/v1/namespaces/{namespace}/resourcequotas",
+        "/api/v1/resourcequotas"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "Secret",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "secrets",
+      "paths": [
+        "/api/v1/namespaces/{namespace}/secrets",
+        "/api/v1/secrets"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "Service",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "services",
+      "paths": [
+        "/api/v1/namespaces/{namespace}/services",
+        "/api/v1/services"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "core",
+      "kind": "ServiceAccount",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "serviceaccounts",
+      "paths": [
+        "/api/v1/namespaces/{namespace}/serviceaccounts",
+        "/api/v1/serviceaccounts"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "discovery.k8s.io",
+      "kind": "EndpointSlice",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "endpointslices",
+      "paths": [
+        "/apis/discovery.k8s.io/v1/endpointslices",
+        "/apis/discovery.k8s.io/v1/namespaces/{namespace}/endpointslices"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "events.k8s.io",
+      "kind": "Event",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "events",
+      "paths": [
+        "/apis/events.k8s.io/v1/events",
+        "/apis/events.k8s.io/v1/namespaces/{namespace}/events"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "flowcontrol.apiserver.k8s.io",
+      "kind": "FlowSchema",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "flowschemas",
+      "paths": [
+        "/apis/flowcontrol.apiserver.k8s.io/v1/flowschemas"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "flowcontrol.apiserver.k8s.io",
+      "kind": "PriorityLevelConfiguration",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "prioritylevelconfigurations",
+      "paths": [
+        "/apis/flowcontrol.apiserver.k8s.io/v1/prioritylevelconfigurations"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "internal.apiserver.k8s.io",
+      "kind": "StorageVersion",
+      "versions": [
+        "v1alpha1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "storageversions",
+      "paths": [
+        "/apis/internal.apiserver.k8s.io/v1alpha1/storageversions"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "lifecycle.k8s.io",
+      "kind": "Eviction",
+      "versions": [
+        "v1alpha1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "evictions",
+      "paths": [
+        "/apis/lifecycle.k8s.io/v1alpha1/evictions",
+        "/apis/lifecycle.k8s.io/v1alpha1/namespaces/{namespace}/evictions"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "lifecycle.k8s.io",
+      "kind": "EvictionRequest",
+      "versions": [
+        "v1alpha1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "evictionrequests",
+      "paths": [
+        "/apis/lifecycle.k8s.io/v1alpha1/evictionrequests",
+        "/apis/lifecycle.k8s.io/v1alpha1/namespaces/{namespace}/evictionrequests"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "networking.k8s.io",
+      "kind": "IPAddress",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "ipaddresses",
+      "paths": [
+        "/apis/networking.k8s.io/v1/ipaddresses"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "networking.k8s.io",
+      "kind": "Ingress",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "ingresses",
+      "paths": [
+        "/apis/networking.k8s.io/v1/ingresses",
+        "/apis/networking.k8s.io/v1/namespaces/{namespace}/ingresses"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "networking.k8s.io",
+      "kind": "IngressClass",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "ingressclasses",
+      "paths": [
+        "/apis/networking.k8s.io/v1/ingressclasses"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "networking.k8s.io",
+      "kind": "NetworkPolicy",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "networkpolicies",
+      "paths": [
+        "/apis/networking.k8s.io/v1/namespaces/{namespace}/networkpolicies",
+        "/apis/networking.k8s.io/v1/networkpolicies"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "networking.k8s.io",
+      "kind": "ServiceCIDR",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "servicecidrs",
+      "paths": [
+        "/apis/networking.k8s.io/v1/servicecidrs"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "node.k8s.io",
+      "kind": "RuntimeClass",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "runtimeclasses",
+      "paths": [
+        "/apis/node.k8s.io/v1/runtimeclasses"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "policy",
+      "kind": "PodDisruptionBudget",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "poddisruptionbudgets",
+      "paths": [
+        "/apis/policy/v1/namespaces/{namespace}/poddisruptionbudgets",
+        "/apis/policy/v1/poddisruptionbudgets"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "rbac.authorization.k8s.io",
+      "kind": "ClusterRole",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "clusterroles",
+      "paths": [
+        "/apis/rbac.authorization.k8s.io/v1/clusterroles"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "rbac.authorization.k8s.io",
+      "kind": "ClusterRoleBinding",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "clusterrolebindings",
+      "paths": [
+        "/apis/rbac.authorization.k8s.io/v1/clusterrolebindings"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "rbac.authorization.k8s.io",
+      "kind": "Role",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "roles",
+      "paths": [
+        "/apis/rbac.authorization.k8s.io/v1/namespaces/{namespace}/roles",
+        "/apis/rbac.authorization.k8s.io/v1/roles"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "rbac.authorization.k8s.io",
+      "kind": "RoleBinding",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "rolebindings",
+      "paths": [
+        "/apis/rbac.authorization.k8s.io/v1/namespaces/{namespace}/rolebindings",
+        "/apis/rbac.authorization.k8s.io/v1/rolebindings"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "resource.k8s.io",
+      "kind": "DeviceClass",
+      "versions": [
+        "v1",
+        "v1beta1",
+        "v1beta2"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "deviceclasses",
+      "paths": [
+        "/apis/resource.k8s.io/v1/deviceclasses",
+        "/apis/resource.k8s.io/v1beta1/deviceclasses",
+        "/apis/resource.k8s.io/v1beta2/deviceclasses"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "resource.k8s.io",
+      "kind": "DeviceTaintRule",
+      "versions": [
+        "v1",
+        "v1alpha3",
+        "v1beta2"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "devicetaintrules",
+      "paths": [
+        "/apis/resource.k8s.io/v1/devicetaintrules",
+        "/apis/resource.k8s.io/v1alpha3/devicetaintrules",
+        "/apis/resource.k8s.io/v1beta2/devicetaintrules"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "resource.k8s.io",
+      "kind": "ResourceClaim",
+      "versions": [
+        "v1",
+        "v1beta1",
+        "v1beta2"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "resourceclaims",
+      "paths": [
+        "/apis/resource.k8s.io/v1/namespaces/{namespace}/resourceclaims",
+        "/apis/resource.k8s.io/v1/resourceclaims",
+        "/apis/resource.k8s.io/v1beta1/namespaces/{namespace}/resourceclaims",
+        "/apis/resource.k8s.io/v1beta1/resourceclaims",
+        "/apis/resource.k8s.io/v1beta2/namespaces/{namespace}/resourceclaims",
+        "/apis/resource.k8s.io/v1beta2/resourceclaims"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "resource.k8s.io",
+      "kind": "ResourceClaimTemplate",
+      "versions": [
+        "v1",
+        "v1beta1",
+        "v1beta2"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "resourceclaimtemplates",
+      "paths": [
+        "/apis/resource.k8s.io/v1/namespaces/{namespace}/resourceclaimtemplates",
+        "/apis/resource.k8s.io/v1/resourceclaimtemplates",
+        "/apis/resource.k8s.io/v1beta1/namespaces/{namespace}/resourceclaimtemplates",
+        "/apis/resource.k8s.io/v1beta1/resourceclaimtemplates",
+        "/apis/resource.k8s.io/v1beta2/namespaces/{namespace}/resourceclaimtemplates",
+        "/apis/resource.k8s.io/v1beta2/resourceclaimtemplates"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "resource.k8s.io",
+      "kind": "ResourcePoolStatusRequest",
+      "versions": [
+        "v1alpha3"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "resourcepoolstatusrequests",
+      "paths": [
+        "/apis/resource.k8s.io/v1alpha3/resourcepoolstatusrequests"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "resource.k8s.io",
+      "kind": "ResourceSlice",
+      "versions": [
+        "v1",
+        "v1beta1",
+        "v1beta2"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "resourceslices",
+      "paths": [
+        "/apis/resource.k8s.io/v1/resourceslices",
+        "/apis/resource.k8s.io/v1beta1/resourceslices",
+        "/apis/resource.k8s.io/v1beta2/resourceslices"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "scheduling.k8s.io",
+      "kind": "CompositePodGroup",
+      "versions": [
+        "v1alpha3"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "compositepodgroups",
+      "paths": [
+        "/apis/scheduling.k8s.io/v1alpha3/compositepodgroups",
+        "/apis/scheduling.k8s.io/v1alpha3/namespaces/{namespace}/compositepodgroups"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "scheduling.k8s.io",
+      "kind": "PodGroup",
+      "versions": [
+        "v1alpha3",
+        "v1beta1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "podgroups",
+      "paths": [
+        "/apis/scheduling.k8s.io/v1alpha3/namespaces/{namespace}/podgroups",
+        "/apis/scheduling.k8s.io/v1alpha3/podgroups",
+        "/apis/scheduling.k8s.io/v1beta1/namespaces/{namespace}/podgroups",
+        "/apis/scheduling.k8s.io/v1beta1/podgroups"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "scheduling.k8s.io",
+      "kind": "PriorityClass",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "priorityclasses",
+      "paths": [
+        "/apis/scheduling.k8s.io/v1/priorityclasses"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "scheduling.k8s.io",
+      "kind": "Workload",
+      "versions": [
+        "v1alpha3",
+        "v1beta1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "workloads",
+      "paths": [
+        "/apis/scheduling.k8s.io/v1alpha3/namespaces/{namespace}/workloads",
+        "/apis/scheduling.k8s.io/v1alpha3/workloads",
+        "/apis/scheduling.k8s.io/v1beta1/namespaces/{namespace}/workloads",
+        "/apis/scheduling.k8s.io/v1beta1/workloads"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "storage.k8s.io",
+      "kind": "CSIDriver",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "csidrivers",
+      "paths": [
+        "/apis/storage.k8s.io/v1/csidrivers"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "storage.k8s.io",
+      "kind": "CSINode",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "csinodes",
+      "paths": [
+        "/apis/storage.k8s.io/v1/csinodes"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "storage.k8s.io",
+      "kind": "CSIStorageCapacity",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Namespaced"
+      ],
+      "plural": "csistoragecapacities",
+      "paths": [
+        "/apis/storage.k8s.io/v1/csistoragecapacities",
+        "/apis/storage.k8s.io/v1/namespaces/{namespace}/csistoragecapacities"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "storage.k8s.io",
+      "kind": "StorageClass",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "storageclasses",
+      "paths": [
+        "/apis/storage.k8s.io/v1/storageclasses"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "storage.k8s.io",
+      "kind": "VolumeAttachment",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "volumeattachments",
+      "paths": [
+        "/apis/storage.k8s.io/v1/volumeattachments"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "storage.k8s.io",
+      "kind": "VolumeAttributesClass",
+      "versions": [
+        "v1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "volumeattributesclasses",
+      "paths": [
+        "/apis/storage.k8s.io/v1/volumeattributesclasses"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    },
+    {
+      "group": "storagemigration.k8s.io",
+      "kind": "StorageVersionMigration",
+      "versions": [
+        "v1",
+        "v1beta1"
+      ],
+      "scopes": [
+        "Cluster"
+      ],
+      "plural": "storageversionmigrations",
+      "paths": [
+        "/apis/storagemigration.k8s.io/v1/storageversionmigrations",
+        "/apis/storagemigration.k8s.io/v1beta1/storageversionmigrations"
+      ],
+      "actions": [
+        "list",
+        "post"
+      ]
+    }
+  ]
+}
