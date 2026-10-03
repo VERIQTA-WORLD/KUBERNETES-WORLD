@@ -1,9 +1,11 @@
-# Argo-CD resource catalogue
+# Argo CD
 
-These are extension resources, not built-in Kubernetes API kinds. Availability and versions depend on the installed project release. Files are currently empty.
+Explore Argo CD through Kubernetes behaviour, engineering practice, and production context.
 
-| Resource kind | Notes |
-|---|---|
-| Application | [Reserved file](Application.md) |
-| ApplicationSet | [Reserved file](ApplicationSet.md) |
-| AppProject | [Reserved file](AppProject.md) |
+| Topic | Explore |
+| :--- | :--- |
+| AppProject | [Explore](AppProject.md) |
+| Application | [Explore](Application.md) |
+| ApplicationSet | [Explore](ApplicationSet.md) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

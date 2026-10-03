@@ -1,19 +1,19 @@
 # Installation Bootstrap and Cluster Lifecycle
 
-Learning and exercise files are reserved and currently empty.
+Explore Installation Bootstrap and Cluster Lifecycle through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 kubeadm | [Open](01-kubeadm.md) |
-| 02 kind | [Open](02-kind.md) |
-| 03 minikube | [Open](03-minikube.md) |
-| 04 k3s | [Open](04-k3s.md) |
-| 05 Talos | [Open](05-Talos.md) |
-| 06 Bootstrap | [Open](06-Bootstrap.md) |
-| 07 Certificates | [Open](07-Certificates.md) |
-| 08 Cluster Upgrades | [Open](08-Cluster-Upgrades.md) |
-| 09 Version Skew | [Open](09-Version-Skew.md) |
-| 10 Cluster API | [Open](10-Cluster-API.md) |
-| 11 Node Join and Removal | [Open](11-Node-Join-and-Removal.md) |
+| Topic | Explore |
+| :--- | :--- |
+| kubeadm | [Explore](01-kubeadm.md) |
+| kind | [Explore](02-kind.md) |
+| minikube | [Explore](03-minikube.md) |
+| k3s | [Explore](04-k3s.md) |
+| Talos | [Explore](05-Talos.md) |
+| Bootstrap | [Explore](06-Bootstrap.md) |
+| Certificates | [Explore](07-Certificates.md) |
+| Cluster Upgrades | [Explore](08-Cluster-Upgrades.md) |
+| Version Skew | [Explore](09-Version-Skew.md) |
+| Cluster API | [Explore](10-Cluster-API.md) |
+| Node Join and Removal | [Explore](11-Node-Join-and-Removal.md) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

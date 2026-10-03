@@ -1,6 +1,10 @@
-# lifecycle.k8s.io API resources
+# lifecycle k8s io
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [Eviction](Eviction/) | v1alpha1 | Namespaced |
-| [EvictionRequest](EvictionRequest/) | v1alpha1 | Namespaced |
+Explore lifecycle k8s io through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| Eviction | [Explore](Eviction/) |
+| EvictionRequest | [Explore](EvictionRequest/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

@@ -1,10 +1,12 @@
-# Crossplane resource catalogue
+# Crossplane
 
-These are extension resources, not built-in Kubernetes API kinds. Availability and versions depend on the installed project release. Files are currently empty.
+Explore Crossplane through Kubernetes behaviour, engineering practice, and production context.
 
-| Resource kind | Notes |
-|---|---|
-| Composition | [Reserved file](Composition.md) |
-| CompositeResourceDefinition | [Reserved file](CompositeResourceDefinition.md) |
-| Provider | [Reserved file](Provider.md) |
-| ProviderConfig | [Reserved file](ProviderConfig.md) |
+| Topic | Explore |
+| :--- | :--- |
+| CompositeResourceDefinition | [Explore](CompositeResourceDefinition.md) |
+| Composition | [Explore](Composition.md) |
+| Provider | [Explore](Provider.md) |
+| ProviderConfig | [Explore](ProviderConfig.md) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

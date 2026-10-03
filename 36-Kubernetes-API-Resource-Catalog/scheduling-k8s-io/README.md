@@ -1,8 +1,12 @@
-# scheduling.k8s.io API resources
+# scheduling k8s io
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [CompositePodGroup](CompositePodGroup/) | v1alpha3 | Namespaced |
-| [PodGroup](PodGroup/) | v1alpha3, v1beta1 | Namespaced |
-| [PriorityClass](PriorityClass/) | v1 | Cluster |
-| [Workload](Workload/) | v1alpha3, v1beta1 | Namespaced |
+Explore scheduling k8s io through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| CompositePodGroup | [Explore](CompositePodGroup/) |
+| PodGroup | [Explore](PodGroup/) |
+| PriorityClass | [Explore](PriorityClass/) |
+| Workload | [Explore](Workload/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

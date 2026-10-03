@@ -1,8 +1,12 @@
-# authorization.k8s.io API resources
+# authorization k8s io
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [LocalSubjectAccessReview](LocalSubjectAccessReview/) | v1 | Namespaced |
-| [SelfSubjectAccessReview](SelfSubjectAccessReview/) | v1 | Cluster |
-| [SelfSubjectRulesReview](SelfSubjectRulesReview/) | v1 | Cluster |
-| [SubjectAccessReview](SubjectAccessReview/) | v1 | Cluster |
+Explore authorization k8s io through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| LocalSubjectAccessReview | [Explore](LocalSubjectAccessReview/) |
+| SelfSubjectAccessReview | [Explore](SelfSubjectAccessReview/) |
+| SelfSubjectRulesReview | [Explore](SelfSubjectRulesReview/) |
+| SubjectAccessReview | [Explore](SubjectAccessReview/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

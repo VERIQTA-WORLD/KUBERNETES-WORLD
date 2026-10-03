@@ -1,5 +1,9 @@
-# internal.apiserver.k8s.io API resources
+# internal apiserver k8s io
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [StorageVersion](StorageVersion/) | v1alpha1 | Cluster |
+Explore internal apiserver k8s io through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| StorageVersion | [Explore](StorageVersion/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

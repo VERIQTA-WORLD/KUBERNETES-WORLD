@@ -1,6 +1,10 @@
-# authentication.k8s.io API resources
+# authentication k8s io
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [SelfSubjectReview](SelfSubjectReview/) | v1 | Cluster |
-| [TokenReview](TokenReview/) | v1 | Cluster |
+Explore authentication k8s io through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| SelfSubjectReview | [Explore](SelfSubjectReview/) |
+| TokenReview | [Explore](TokenReview/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

@@ -1,11 +1,11 @@
 # Labs
 
-Learning and exercise files are reserved and currently empty.
+Explore Labs through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| Junior | [Open](Junior/) |
-| Mid Level | [Open](Mid-Level/) |
-| Senior | [Open](Senior/) |
+| Topic | Explore |
+| :--- | :--- |
+| Junior | [Explore](Junior/) |
+| Mid Level | [Explore](Mid-Level/) |
+| Senior | [Explore](Senior/) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

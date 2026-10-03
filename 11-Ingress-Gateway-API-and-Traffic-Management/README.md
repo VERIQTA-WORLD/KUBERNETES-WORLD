@@ -1,22 +1,22 @@
 # Ingress Gateway API and Traffic Management
 
-Learning and exercise files are reserved and currently empty.
+Explore Ingress Gateway API and Traffic Management through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 Ingress | [Open](01-Ingress.md) |
-| 02 IngressClass | [Open](02-IngressClass.md) |
-| 03 GatewayClass | [Open](03-GatewayClass.md) |
-| 04 Gateway | [Open](04-Gateway.md) |
-| 05 HTTPRoute | [Open](05-HTTPRoute.md) |
-| 06 GRPCRoute | [Open](06-GRPCRoute.md) |
-| 07 TLSRoute | [Open](07-TLSRoute.md) |
-| 08 TCPRoute | [Open](08-TCPRoute.md) |
-| 09 UDPRoute | [Open](09-UDPRoute.md) |
-| 10 ReferenceGrant | [Open](10-ReferenceGrant.md) |
-| 11 TLS and Certificates | [Open](11-TLS-and-Certificates.md) |
-| 12 Traffic Splitting | [Open](12-Traffic-Splitting.md) |
-| 13 Controller Selection | [Open](13-Controller-Selection.md) |
-| 14 Ingress NGINX Legacy and Migration | [Open](14-Ingress-NGINX-Legacy-and-Migration.md) |
+| Topic | Explore |
+| :--- | :--- |
+| Ingress | [Explore](01-Ingress.md) |
+| IngressClass | [Explore](02-IngressClass.md) |
+| GatewayClass | [Explore](03-GatewayClass.md) |
+| Gateway | [Explore](04-Gateway.md) |
+| HTTPRoute | [Explore](05-HTTPRoute.md) |
+| GRPCRoute | [Explore](06-GRPCRoute.md) |
+| TLSRoute | [Explore](07-TLSRoute.md) |
+| TCPRoute | [Explore](08-TCPRoute.md) |
+| UDPRoute | [Explore](09-UDPRoute.md) |
+| ReferenceGrant | [Explore](10-ReferenceGrant.md) |
+| TLS and Certificates | [Explore](11-TLS-and-Certificates.md) |
+| Traffic Splitting | [Explore](12-Traffic-Splitting.md) |
+| Controller Selection | [Explore](13-Controller-Selection.md) |
+| Ingress NGINX Legacy and Migration | [Explore](14-Ingress-NGINX-Legacy-and-Migration.md) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

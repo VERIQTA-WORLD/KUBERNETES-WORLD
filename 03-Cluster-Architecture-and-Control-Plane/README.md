@@ -1,16 +1,16 @@
 # Cluster Architecture and Control Plane
 
-Learning and exercise files are reserved and currently empty.
+Explore Cluster Architecture and Control Plane through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 API Server | [Open](01-API-Server.md) |
-| 02 etcd | [Open](02-etcd.md) |
-| 03 Scheduler | [Open](03-Scheduler.md) |
-| 04 Controller Manager | [Open](04-Controller-Manager.md) |
-| 05 Cloud Controller Manager | [Open](05-Cloud-Controller-Manager.md) |
-| 06 Control Plane High Availability | [Open](06-Control-Plane-High-Availability.md) |
-| 07 Leader Election | [Open](07-Leader-Election.md) |
-| 08 Cluster Communication | [Open](08-Cluster-Communication.md) |
+| Topic | Explore |
+| :--- | :--- |
+| API Server | [Explore](01-API-Server.md) |
+| etcd | [Explore](02-etcd.md) |
+| Scheduler | [Explore](03-Scheduler.md) |
+| Controller Manager | [Explore](04-Controller-Manager.md) |
+| Cloud Controller Manager | [Explore](05-Cloud-Controller-Manager.md) |
+| Control Plane High Availability | [Explore](06-Control-Plane-High-Availability.md) |
+| Leader Election | [Explore](07-Leader-Election.md) |
+| Cluster Communication | [Explore](08-Cluster-Communication.md) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

@@ -1,9 +1,11 @@
-# CSI-Snapshots resource catalogue
+# CSI Snapshots
 
-These are extension resources, not built-in Kubernetes API kinds. Availability and versions depend on the installed project release. Files are currently empty.
+Explore CSI Snapshots through Kubernetes behaviour, engineering practice, and production context.
 
-| Resource kind | Notes |
-|---|---|
-| VolumeSnapshot | [Reserved file](VolumeSnapshot.md) |
-| VolumeSnapshotContent | [Reserved file](VolumeSnapshotContent.md) |
-| VolumeSnapshotClass | [Reserved file](VolumeSnapshotClass.md) |
+| Topic | Explore |
+| :--- | :--- |
+| VolumeSnapshot | [Explore](VolumeSnapshot.md) |
+| VolumeSnapshotClass | [Explore](VolumeSnapshotClass.md) |
+| VolumeSnapshotContent | [Explore](VolumeSnapshotContent.md) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

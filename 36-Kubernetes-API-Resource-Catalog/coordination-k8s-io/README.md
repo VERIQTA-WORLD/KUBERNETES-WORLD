@@ -1,6 +1,10 @@
-# coordination.k8s.io API resources
+# coordination k8s io
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [Lease](Lease/) | v1 | Namespaced |
-| [LeaseCandidate](LeaseCandidate/) | v1alpha2, v1beta1 | Namespaced |
+Explore coordination k8s io through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| Lease | [Explore](Lease/) |
+| LeaseCandidate | [Explore](LeaseCandidate/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

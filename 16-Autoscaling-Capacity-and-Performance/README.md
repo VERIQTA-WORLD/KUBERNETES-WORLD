@@ -1,18 +1,18 @@
 # Autoscaling Capacity and Performance
 
-Learning and exercise files are reserved and currently empty.
+Explore Autoscaling Capacity and Performance through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 Horizontal Pod Autoscaling | [Open](01-Horizontal-Pod-Autoscaling.md) |
-| 02 Vertical Pod Autoscaling | [Open](02-Vertical-Pod-Autoscaling.md) |
-| 03 Cluster Autoscaler | [Open](03-Cluster-Autoscaler.md) |
-| 04 Karpenter | [Open](04-Karpenter.md) |
-| 05 KEDA | [Open](05-KEDA.md) |
-| 06 Custom and External Metrics | [Open](06-Custom-and-External-Metrics.md) |
-| 07 Capacity Planning | [Open](07-Capacity-Planning.md) |
-| 08 Load Testing | [Open](08-Load-Testing.md) |
-| 09 CPU Throttling | [Open](09-CPU-Throttling.md) |
-| 10 Memory Pressure | [Open](10-Memory-Pressure.md) |
+| Topic | Explore |
+| :--- | :--- |
+| Horizontal Pod Autoscaling | [Explore](01-Horizontal-Pod-Autoscaling.md) |
+| Vertical Pod Autoscaling | [Explore](02-Vertical-Pod-Autoscaling.md) |
+| Cluster Autoscaler | [Explore](03-Cluster-Autoscaler.md) |
+| Karpenter | [Explore](04-Karpenter.md) |
+| KEDA | [Explore](05-KEDA.md) |
+| Custom and External Metrics | [Explore](06-Custom-and-External-Metrics.md) |
+| Capacity Planning | [Explore](07-Capacity-Planning.md) |
+| Load Testing | [Explore](08-Load-Testing.md) |
+| CPU Throttling | [Explore](09-CPU-Throttling.md) |
+| Memory Pressure | [Explore](10-Memory-Pressure.md) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

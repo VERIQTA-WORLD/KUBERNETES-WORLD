@@ -1,5 +1,9 @@
-# apiextensions.k8s.io API resources
+# apiextensions k8s io
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [CustomResourceDefinition](CustomResourceDefinition/) | v1 | Cluster |
+Explore apiextensions k8s io through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| CustomResourceDefinition | [Explore](CustomResourceDefinition/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

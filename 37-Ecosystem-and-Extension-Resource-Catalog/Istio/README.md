@@ -1,12 +1,14 @@
-# Istio resource catalogue
+# Istio
 
-These are extension resources, not built-in Kubernetes API kinds. Availability and versions depend on the installed project release. Files are currently empty.
+Explore Istio through Kubernetes behaviour, engineering practice, and production context.
 
-| Resource kind | Notes |
-|---|---|
-| VirtualService | [Reserved file](VirtualService.md) |
-| DestinationRule | [Reserved file](DestinationRule.md) |
-| Gateway | [Reserved file](Gateway.md) |
-| ServiceEntry | [Reserved file](ServiceEntry.md) |
-| AuthorizationPolicy | [Reserved file](AuthorizationPolicy.md) |
-| PeerAuthentication | [Reserved file](PeerAuthentication.md) |
+| Topic | Explore |
+| :--- | :--- |
+| AuthorizationPolicy | [Explore](AuthorizationPolicy.md) |
+| DestinationRule | [Explore](DestinationRule.md) |
+| Gateway | [Explore](Gateway.md) |
+| PeerAuthentication | [Explore](PeerAuthentication.md) |
+| ServiceEntry | [Explore](ServiceEntry.md) |
+| VirtualService | [Explore](VirtualService.md) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

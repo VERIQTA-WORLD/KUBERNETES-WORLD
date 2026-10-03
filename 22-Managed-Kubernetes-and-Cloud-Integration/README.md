@@ -1,17 +1,17 @@
 # Managed Kubernetes and Cloud Integration
 
-Learning and exercise files are reserved and currently empty.
+Explore Managed Kubernetes and Cloud Integration through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 Amazon EKS | [Open](01-Amazon-EKS.md) |
-| 02 Azure AKS | [Open](02-Azure-AKS.md) |
-| 03 Google GKE | [Open](03-Google-GKE.md) |
-| 04 Cloud Networking | [Open](04-Cloud-Networking.md) |
-| 05 Cloud Storage | [Open](05-Cloud-Storage.md) |
-| 06 Load Balancer Controllers | [Open](06-Load-Balancer-Controllers.md) |
-| 07 Workload Identity | [Open](07-Workload-Identity.md) |
-| 08 Managed Control Planes | [Open](08-Managed-Control-Planes.md) |
-| 09 Cloud Costs | [Open](09-Cloud-Costs.md) |
+| Topic | Explore |
+| :--- | :--- |
+| Amazon EKS | [Explore](01-Amazon-EKS.md) |
+| Azure AKS | [Explore](02-Azure-AKS.md) |
+| Google GKE | [Explore](03-Google-GKE.md) |
+| Cloud Networking | [Explore](04-Cloud-Networking.md) |
+| Cloud Storage | [Explore](05-Cloud-Storage.md) |
+| Load Balancer Controllers | [Explore](06-Load-Balancer-Controllers.md) |
+| Workload Identity | [Explore](07-Workload-Identity.md) |
+| Managed Control Planes | [Explore](08-Managed-Control-Planes.md) |
+| Cloud Costs | [Explore](09-Cloud-Costs.md) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

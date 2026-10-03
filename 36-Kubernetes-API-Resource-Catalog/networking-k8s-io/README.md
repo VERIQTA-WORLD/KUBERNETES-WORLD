@@ -1,9 +1,13 @@
-# networking.k8s.io API resources
+# networking k8s io
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [IPAddress](IPAddress/) | v1 | Cluster |
-| [Ingress](Ingress/) | v1 | Namespaced |
-| [IngressClass](IngressClass/) | v1 | Cluster |
-| [NetworkPolicy](NetworkPolicy/) | v1 | Namespaced |
-| [ServiceCIDR](ServiceCIDR/) | v1 | Cluster |
+Explore networking k8s io through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| IPAddress | [Explore](IPAddress/) |
+| Ingress | [Explore](Ingress/) |
+| IngressClass | [Explore](IngressClass/) |
+| NetworkPolicy | [Explore](NetworkPolicy/) |
+| ServiceCIDR | [Explore](ServiceCIDR/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

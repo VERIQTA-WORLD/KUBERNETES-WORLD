@@ -1,13 +1,15 @@
-# Prometheus-Operator resource catalogue
+# Prometheus Operator
 
-These are extension resources, not built-in Kubernetes API kinds. Availability and versions depend on the installed project release. Files are currently empty.
+Explore Prometheus Operator through Kubernetes behaviour, engineering practice, and production context.
 
-| Resource kind | Notes |
-|---|---|
-| Prometheus | [Reserved file](Prometheus.md) |
-| Alertmanager | [Reserved file](Alertmanager.md) |
-| ServiceMonitor | [Reserved file](ServiceMonitor.md) |
-| PodMonitor | [Reserved file](PodMonitor.md) |
-| PrometheusRule | [Reserved file](PrometheusRule.md) |
-| Probe | [Reserved file](Probe.md) |
-| ScrapeConfig | [Reserved file](ScrapeConfig.md) |
+| Topic | Explore |
+| :--- | :--- |
+| Alertmanager | [Explore](Alertmanager.md) |
+| PodMonitor | [Explore](PodMonitor.md) |
+| Probe | [Explore](Probe.md) |
+| Prometheus | [Explore](Prometheus.md) |
+| PrometheusRule | [Explore](PrometheusRule.md) |
+| ScrapeConfig | [Explore](ScrapeConfig.md) |
+| ServiceMonitor | [Explore](ServiceMonitor.md) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

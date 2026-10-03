@@ -1,6 +1,10 @@
-# batch API resources
+# batch
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [CronJob](CronJob/) | v1 | Namespaced |
-| [Job](Job/) | v1 | Namespaced |
+Explore batch through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| CronJob | [Explore](CronJob/) |
+| Job | [Explore](Job/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

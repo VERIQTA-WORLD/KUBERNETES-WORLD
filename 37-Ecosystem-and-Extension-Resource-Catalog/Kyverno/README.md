@@ -1,9 +1,11 @@
-# Kyverno resource catalogue
+# Kyverno
 
-These are extension resources, not built-in Kubernetes API kinds. Availability and versions depend on the installed project release. Files are currently empty.
+Explore Kyverno through Kubernetes behaviour, engineering practice, and production context.
 
-| Resource kind | Notes |
-|---|---|
-| Policy | [Reserved file](Policy.md) |
-| ClusterPolicy | [Reserved file](ClusterPolicy.md) |
-| PolicyException | [Reserved file](PolicyException.md) |
+| Topic | Explore |
+| :--- | :--- |
+| ClusterPolicy | [Explore](ClusterPolicy.md) |
+| Policy | [Explore](Policy.md) |
+| PolicyException | [Explore](PolicyException.md) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

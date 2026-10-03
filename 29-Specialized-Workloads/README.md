@@ -1,17 +1,17 @@
 # Specialized Workloads
 
-Learning and exercise files are reserved and currently empty.
+Explore Specialized Workloads through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 GPU and Accelerators | [Open](01-GPU-and-Accelerators.md) |
-| 02 AI and ML | [Open](02-AI-and-ML.md) |
-| 03 Distributed Training | [Open](03-Distributed-Training.md) |
-| 04 Batch and HPC | [Open](04-Batch-and-HPC.md) |
-| 05 Data Platforms | [Open](05-Data-Platforms.md) |
-| 06 Real Time Applications | [Open](06-Real-Time-Applications.md) |
-| 07 DRA | [Open](07-DRA.md) |
-| 08 Device Plugins | [Open](08-Device-Plugins.md) |
-| 09 Topology Management | [Open](09-Topology-Management.md) |
+| Topic | Explore |
+| :--- | :--- |
+| GPU and Accelerators | [Explore](01-GPU-and-Accelerators.md) |
+| AI and ML | [Explore](02-AI-and-ML.md) |
+| Distributed Training | [Explore](03-Distributed-Training.md) |
+| Batch and HPC | [Explore](04-Batch-and-HPC.md) |
+| Data Platforms | [Explore](05-Data-Platforms.md) |
+| Real Time Applications | [Explore](06-Real-Time-Applications.md) |
+| DRA | [Explore](07-DRA.md) |
+| Device Plugins | [Explore](08-Device-Plugins.md) |
+| Topology Management | [Explore](09-Topology-Management.md) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

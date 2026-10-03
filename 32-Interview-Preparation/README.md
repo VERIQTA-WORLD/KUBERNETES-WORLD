@@ -1,12 +1,12 @@
 # Interview Preparation
 
-Learning and exercise files are reserved and currently empty.
+Explore Interview Preparation through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 04 Architecture Discussions | [Open](04-Architecture-Discussions.md) |
-| Junior | [Open](Junior/) |
-| Mid Level | [Open](Mid-Level/) |
-| Senior | [Open](Senior/) |
+| Topic | Explore |
+| :--- | :--- |
+| Architecture Discussions | [Explore](04-Architecture-Discussions.md) |
+| Junior | [Explore](Junior/) |
+| Mid Level | [Explore](Mid-Level/) |
+| Senior | [Explore](Senior/) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

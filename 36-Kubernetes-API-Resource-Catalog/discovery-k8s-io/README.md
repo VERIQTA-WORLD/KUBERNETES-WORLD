@@ -1,5 +1,9 @@
-# discovery.k8s.io API resources
+# discovery k8s io
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [EndpointSlice](EndpointSlice/) | v1 | Namespaced |
+Explore discovery k8s io through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| EndpointSlice | [Explore](EndpointSlice/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

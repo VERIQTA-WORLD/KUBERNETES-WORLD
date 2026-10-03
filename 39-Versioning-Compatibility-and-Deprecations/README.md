@@ -1,15 +1,15 @@
 # Versioning Compatibility and Deprecations
 
-Learning and exercise files are reserved and currently empty.
+Explore Versioning Compatibility and Deprecations through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 Supported Versions | [Open](01-Supported-Versions.md) |
-| 02 Feature Gates | [Open](02-Feature-Gates.md) |
-| 03 API Availability | [Open](03-API-Availability.md) |
-| 04 Upgrade Compatibility | [Open](04-Upgrade-Compatibility.md) |
-| 05 Component Compatibility | [Open](05-Component-Compatibility.md) |
-| 06 Deprecated APIs | [Open](06-Deprecated-APIs.md) |
-| 07 Extension Version Matrix | [Open](07-Extension-Version-Matrix.md) |
+| Topic | Explore |
+| :--- | :--- |
+| Supported Versions | [Explore](01-Supported-Versions.md) |
+| Feature Gates | [Explore](02-Feature-Gates.md) |
+| API Availability | [Explore](03-API-Availability.md) |
+| Upgrade Compatibility | [Explore](04-Upgrade-Compatibility.md) |
+| Component Compatibility | [Explore](05-Component-Compatibility.md) |
+| Deprecated APIs | [Explore](06-Deprecated-APIs.md) |
+| Extension Version Matrix | [Explore](07-Extension-Version-Matrix.md) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

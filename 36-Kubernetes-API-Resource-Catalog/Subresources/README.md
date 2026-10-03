@@ -1,68 +1,70 @@
-# API subresource operations
+# Subresources
 
-Subresource paths from the same official API specification. These are operations on resources, not additional independent resource kinds. Reserved notes are empty.
+Explore Subresources through Kubernetes behaviour, engineering practice, and production context.
 
-| Path | HTTP methods | Notes |
-|---|---|---|
-| `/api/v1/namespaces/{namespace}/persistentvolumeclaims/{name}/status` | GET, PATCH, PUT | [Reserved file](001-status.md) |
-| `/api/v1/namespaces/{namespace}/pods/{name}/attach` | GET, POST | [Reserved file](002-attach.md) |
-| `/api/v1/namespaces/{namespace}/pods/{name}/binding` | POST | [Reserved file](003-binding.md) |
-| `/api/v1/namespaces/{namespace}/pods/{name}/ephemeralcontainers` | GET, PATCH, PUT | [Reserved file](004-ephemeralcontainers.md) |
-| `/api/v1/namespaces/{namespace}/pods/{name}/eviction` | POST | [Reserved file](005-eviction.md) |
-| `/api/v1/namespaces/{namespace}/pods/{name}/exec` | GET, POST | [Reserved file](006-exec.md) |
-| `/api/v1/namespaces/{namespace}/pods/{name}/log` | GET | [Reserved file](007-log.md) |
-| `/api/v1/namespaces/{namespace}/pods/{name}/portforward` | GET, POST | [Reserved file](008-portforward.md) |
-| `/api/v1/namespaces/{namespace}/pods/{name}/proxy` | DELETE, GET, PATCH, POST, PUT | [Reserved file](009-proxy.md) |
-| `/api/v1/namespaces/{namespace}/pods/{name}/resize` | GET, PATCH, PUT | [Reserved file](010-resize.md) |
-| `/api/v1/namespaces/{namespace}/pods/{name}/status` | GET, PATCH, PUT | [Reserved file](011-status.md) |
-| `/api/v1/namespaces/{namespace}/replicationcontrollers/{name}/scale` | GET, PATCH, PUT | [Reserved file](012-scale.md) |
-| `/api/v1/namespaces/{namespace}/replicationcontrollers/{name}/status` | GET, PATCH, PUT | [Reserved file](013-status.md) |
-| `/api/v1/namespaces/{namespace}/resourcequotas/{name}/status` | GET, PATCH, PUT | [Reserved file](014-status.md) |
-| `/api/v1/namespaces/{namespace}/serviceaccounts/{name}/token` | POST | [Reserved file](015-token.md) |
-| `/api/v1/namespaces/{namespace}/services/{name}/proxy` | DELETE, GET, PATCH, POST, PUT | [Reserved file](016-proxy.md) |
-| `/api/v1/namespaces/{namespace}/services/{name}/status` | GET, PATCH, PUT | [Reserved file](017-status.md) |
-| `/api/v1/namespaces/{name}/finalize` | PUT | [Reserved file](018-finalize.md) |
-| `/api/v1/namespaces/{name}/status` | GET, PATCH, PUT | [Reserved file](019-status.md) |
-| `/api/v1/nodes/{name}/proxy` | DELETE, GET, PATCH, POST, PUT | [Reserved file](020-proxy.md) |
-| `/api/v1/nodes/{name}/status` | GET, PATCH, PUT | [Reserved file](021-status.md) |
-| `/api/v1/persistentvolumes/{name}/status` | GET, PATCH, PUT | [Reserved file](022-status.md) |
-| `/apis/admissionregistration.k8s.io/v1/validatingadmissionpolicies/{name}/status` | GET, PATCH, PUT | [Reserved file](023-status.md) |
-| `/apis/apiextensions.k8s.io/v1/customresourcedefinitions/{name}/status` | GET, PATCH, PUT | [Reserved file](024-status.md) |
-| `/apis/apiregistration.k8s.io/v1/apiservices/{name}/status` | GET, PATCH, PUT | [Reserved file](025-status.md) |
-| `/apis/apps/v1/namespaces/{namespace}/daemonsets/{name}/status` | GET, PATCH, PUT | [Reserved file](026-status.md) |
-| `/apis/apps/v1/namespaces/{namespace}/deployments/{name}/scale` | GET, PATCH, PUT | [Reserved file](027-scale.md) |
-| `/apis/apps/v1/namespaces/{namespace}/deployments/{name}/status` | GET, PATCH, PUT | [Reserved file](028-status.md) |
-| `/apis/apps/v1/namespaces/{namespace}/replicasets/{name}/scale` | GET, PATCH, PUT | [Reserved file](029-scale.md) |
-| `/apis/apps/v1/namespaces/{namespace}/replicasets/{name}/status` | GET, PATCH, PUT | [Reserved file](030-status.md) |
-| `/apis/apps/v1/namespaces/{namespace}/statefulsets/{name}/scale` | GET, PATCH, PUT | [Reserved file](031-scale.md) |
-| `/apis/apps/v1/namespaces/{namespace}/statefulsets/{name}/status` | GET, PATCH, PUT | [Reserved file](032-status.md) |
-| `/apis/autoscaling/v1/namespaces/{namespace}/horizontalpodautoscalers/{name}/status` | GET, PATCH, PUT | [Reserved file](033-status.md) |
-| `/apis/autoscaling/v2/namespaces/{namespace}/horizontalpodautoscalers/{name}/status` | GET, PATCH, PUT | [Reserved file](034-status.md) |
-| `/apis/batch/v1/namespaces/{namespace}/cronjobs/{name}/status` | GET, PATCH, PUT | [Reserved file](035-status.md) |
-| `/apis/batch/v1/namespaces/{namespace}/jobs/{name}/status` | GET, PATCH, PUT | [Reserved file](036-status.md) |
-| `/apis/certificates.k8s.io/v1/certificatesigningrequests/{name}/approval` | GET, PATCH, PUT | [Reserved file](037-approval.md) |
-| `/apis/certificates.k8s.io/v1/certificatesigningrequests/{name}/status` | GET, PATCH, PUT | [Reserved file](038-status.md) |
-| `/apis/certificates.k8s.io/v1/namespaces/{namespace}/podcertificaterequests/{name}/status` | GET, PATCH, PUT | [Reserved file](039-status.md) |
-| `/apis/certificates.k8s.io/v1beta1/namespaces/{namespace}/podcertificaterequests/{name}/status` | GET, PATCH, PUT | [Reserved file](040-status.md) |
-| `/apis/flowcontrol.apiserver.k8s.io/v1/flowschemas/{name}/status` | GET, PATCH, PUT | [Reserved file](041-status.md) |
-| `/apis/flowcontrol.apiserver.k8s.io/v1/prioritylevelconfigurations/{name}/status` | GET, PATCH, PUT | [Reserved file](042-status.md) |
-| `/apis/internal.apiserver.k8s.io/v1alpha1/storageversions/{name}/status` | GET, PATCH, PUT | [Reserved file](043-status.md) |
-| `/apis/lifecycle.k8s.io/v1alpha1/namespaces/{namespace}/evictionrequests/{name}/status` | GET, PATCH, PUT | [Reserved file](044-status.md) |
-| `/apis/lifecycle.k8s.io/v1alpha1/namespaces/{namespace}/evictions/{name}/status` | GET, PATCH, PUT | [Reserved file](045-status.md) |
-| `/apis/networking.k8s.io/v1/namespaces/{namespace}/ingresses/{name}/status` | GET, PATCH, PUT | [Reserved file](046-status.md) |
-| `/apis/networking.k8s.io/v1/servicecidrs/{name}/status` | GET, PATCH, PUT | [Reserved file](047-status.md) |
-| `/apis/policy/v1/namespaces/{namespace}/poddisruptionbudgets/{name}/status` | GET, PATCH, PUT | [Reserved file](048-status.md) |
-| `/apis/resource.k8s.io/v1/devicetaintrules/{name}/status` | GET, PATCH, PUT | [Reserved file](049-status.md) |
-| `/apis/resource.k8s.io/v1/namespaces/{namespace}/resourceclaims/{name}/status` | GET, PATCH, PUT | [Reserved file](050-status.md) |
-| `/apis/resource.k8s.io/v1alpha3/devicetaintrules/{name}/status` | GET, PATCH, PUT | [Reserved file](051-status.md) |
-| `/apis/resource.k8s.io/v1alpha3/resourcepoolstatusrequests/{name}/status` | GET, PATCH, PUT | [Reserved file](052-status.md) |
-| `/apis/resource.k8s.io/v1beta1/namespaces/{namespace}/resourceclaims/{name}/status` | GET, PATCH, PUT | [Reserved file](053-status.md) |
-| `/apis/resource.k8s.io/v1beta2/devicetaintrules/{name}/status` | GET, PATCH, PUT | [Reserved file](054-status.md) |
-| `/apis/resource.k8s.io/v1beta2/namespaces/{namespace}/resourceclaims/{name}/status` | GET, PATCH, PUT | [Reserved file](055-status.md) |
-| `/apis/scheduling.k8s.io/v1alpha3/namespaces/{namespace}/compositepodgroups/{name}/status` | GET, PATCH, PUT | [Reserved file](056-status.md) |
-| `/apis/scheduling.k8s.io/v1alpha3/namespaces/{namespace}/podgroups/{name}/status` | GET, PATCH, PUT | [Reserved file](057-status.md) |
-| `/apis/scheduling.k8s.io/v1beta1/namespaces/{namespace}/podgroups/{name}/status` | GET, PATCH, PUT | [Reserved file](058-status.md) |
-| `/apis/storage.k8s.io/v1/csinodes/{name}/status` | GET, PATCH, PUT | [Reserved file](059-status.md) |
-| `/apis/storage.k8s.io/v1/volumeattachments/{name}/status` | GET, PATCH, PUT | [Reserved file](060-status.md) |
-| `/apis/storagemigration.k8s.io/v1/storageversionmigrations/{name}/status` | GET, PATCH, PUT | [Reserved file](061-status.md) |
-| `/apis/storagemigration.k8s.io/v1beta1/storageversionmigrations/{name}/status` | GET, PATCH, PUT | [Reserved file](062-status.md) |
+| Topic | Explore |
+| :--- | :--- |
+| 001 status | [Explore](001-status.md) |
+| 002 attach | [Explore](002-attach.md) |
+| 003 binding | [Explore](003-binding.md) |
+| 004 ephemeralcontainers | [Explore](004-ephemeralcontainers.md) |
+| 005 eviction | [Explore](005-eviction.md) |
+| 006 exec | [Explore](006-exec.md) |
+| 007 log | [Explore](007-log.md) |
+| 008 portforward | [Explore](008-portforward.md) |
+| 009 proxy | [Explore](009-proxy.md) |
+| 010 resize | [Explore](010-resize.md) |
+| 011 status | [Explore](011-status.md) |
+| 012 scale | [Explore](012-scale.md) |
+| 013 status | [Explore](013-status.md) |
+| 014 status | [Explore](014-status.md) |
+| 015 token | [Explore](015-token.md) |
+| 016 proxy | [Explore](016-proxy.md) |
+| 017 status | [Explore](017-status.md) |
+| 018 finalize | [Explore](018-finalize.md) |
+| 019 status | [Explore](019-status.md) |
+| 020 proxy | [Explore](020-proxy.md) |
+| 021 status | [Explore](021-status.md) |
+| 022 status | [Explore](022-status.md) |
+| 023 status | [Explore](023-status.md) |
+| 024 status | [Explore](024-status.md) |
+| 025 status | [Explore](025-status.md) |
+| 026 status | [Explore](026-status.md) |
+| 027 scale | [Explore](027-scale.md) |
+| 028 status | [Explore](028-status.md) |
+| 029 scale | [Explore](029-scale.md) |
+| 030 status | [Explore](030-status.md) |
+| 031 scale | [Explore](031-scale.md) |
+| 032 status | [Explore](032-status.md) |
+| 033 status | [Explore](033-status.md) |
+| 034 status | [Explore](034-status.md) |
+| 035 status | [Explore](035-status.md) |
+| 036 status | [Explore](036-status.md) |
+| 037 approval | [Explore](037-approval.md) |
+| 038 status | [Explore](038-status.md) |
+| 039 status | [Explore](039-status.md) |
+| 040 status | [Explore](040-status.md) |
+| 041 status | [Explore](041-status.md) |
+| 042 status | [Explore](042-status.md) |
+| 043 status | [Explore](043-status.md) |
+| 044 status | [Explore](044-status.md) |
+| 045 status | [Explore](045-status.md) |
+| 046 status | [Explore](046-status.md) |
+| 047 status | [Explore](047-status.md) |
+| 048 status | [Explore](048-status.md) |
+| 049 status | [Explore](049-status.md) |
+| 050 status | [Explore](050-status.md) |
+| 051 status | [Explore](051-status.md) |
+| 052 status | [Explore](052-status.md) |
+| 053 status | [Explore](053-status.md) |
+| 054 status | [Explore](054-status.md) |
+| 055 status | [Explore](055-status.md) |
+| 056 status | [Explore](056-status.md) |
+| 057 status | [Explore](057-status.md) |
+| 058 status | [Explore](058-status.md) |
+| 059 status | [Explore](059-status.md) |
+| 060 status | [Explore](060-status.md) |
+| 061 status | [Explore](061-status.md) |
+| 062 status | [Explore](062-status.md) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

@@ -1,15 +1,17 @@
-# Gateway-API resource catalogue
+# Gateway API
 
-These are extension resources, not built-in Kubernetes API kinds. Availability and versions depend on the installed project release. Files are currently empty.
+Explore Gateway API through Kubernetes behaviour, engineering practice, and production context.
 
-| Resource kind | Notes |
-|---|---|
-| GatewayClass | [Reserved file](GatewayClass.md) |
-| Gateway | [Reserved file](Gateway.md) |
-| HTTPRoute | [Reserved file](HTTPRoute.md) |
-| GRPCRoute | [Reserved file](GRPCRoute.md) |
-| TLSRoute | [Reserved file](TLSRoute.md) |
-| TCPRoute | [Reserved file](TCPRoute.md) |
-| UDPRoute | [Reserved file](UDPRoute.md) |
-| ReferenceGrant | [Reserved file](ReferenceGrant.md) |
-| BackendTLSPolicy | [Reserved file](BackendTLSPolicy.md) |
+| Topic | Explore |
+| :--- | :--- |
+| BackendTLSPolicy | [Explore](BackendTLSPolicy.md) |
+| GRPCRoute | [Explore](GRPCRoute.md) |
+| Gateway | [Explore](Gateway.md) |
+| GatewayClass | [Explore](GatewayClass.md) |
+| HTTPRoute | [Explore](HTTPRoute.md) |
+| ReferenceGrant | [Explore](ReferenceGrant.md) |
+| TCPRoute | [Explore](TCPRoute.md) |
+| TLSRoute | [Explore](TLSRoute.md) |
+| UDPRoute | [Explore](UDPRoute.md) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

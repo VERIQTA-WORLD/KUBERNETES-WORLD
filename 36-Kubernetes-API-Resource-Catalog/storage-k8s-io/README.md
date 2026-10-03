@@ -1,10 +1,14 @@
-# storage.k8s.io API resources
+# storage k8s io
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [CSIDriver](CSIDriver/) | v1 | Cluster |
-| [CSINode](CSINode/) | v1 | Cluster |
-| [CSIStorageCapacity](CSIStorageCapacity/) | v1 | Namespaced |
-| [StorageClass](StorageClass/) | v1 | Cluster |
-| [VolumeAttachment](VolumeAttachment/) | v1 | Cluster |
-| [VolumeAttributesClass](VolumeAttributesClass/) | v1 | Cluster |
+Explore storage k8s io through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| CSIDriver | [Explore](CSIDriver/) |
+| CSINode | [Explore](CSINode/) |
+| CSIStorageCapacity | [Explore](CSIStorageCapacity/) |
+| StorageClass | [Explore](StorageClass/) |
+| VolumeAttachment | [Explore](VolumeAttachment/) |
+| VolumeAttributesClass | [Explore](VolumeAttributesClass/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

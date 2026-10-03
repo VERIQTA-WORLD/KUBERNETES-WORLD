@@ -1,16 +1,16 @@
 # Service Mesh and Advanced Traffic
 
-Learning and exercise files are reserved and currently empty.
+Explore Service Mesh and Advanced Traffic through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 Istio | [Open](01-Istio.md) |
-| 02 Linkerd | [Open](02-Linkerd.md) |
-| 03 Envoy | [Open](03-Envoy.md) |
-| 04 Mutual TLS | [Open](04-Mutual-TLS.md) |
-| 05 Traffic Policy | [Open](05-Traffic-Policy.md) |
-| 06 Telemetry | [Open](06-Telemetry.md) |
-| 07 Ambient and Sidecar Models | [Open](07-Ambient-and-Sidecar-Models.md) |
-| 08 Mesh Troubleshooting | [Open](08-Mesh-Troubleshooting.md) |
+| Topic | Explore |
+| :--- | :--- |
+| Istio | [Explore](01-Istio.md) |
+| Linkerd | [Explore](02-Linkerd.md) |
+| Envoy | [Explore](03-Envoy.md) |
+| Mutual TLS | [Explore](04-Mutual-TLS.md) |
+| Traffic Policy | [Explore](05-Traffic-Policy.md) |
+| Telemetry | [Explore](06-Telemetry.md) |
+| Ambient and Sidecar Models | [Explore](07-Ambient-and-Sidecar-Models.md) |
+| Mesh Troubleshooting | [Explore](08-Mesh-Troubleshooting.md) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

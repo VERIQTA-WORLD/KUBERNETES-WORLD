@@ -1,10 +1,12 @@
-# KEDA resource catalogue
+# KEDA
 
-These are extension resources, not built-in Kubernetes API kinds. Availability and versions depend on the installed project release. Files are currently empty.
+Explore KEDA through Kubernetes behaviour, engineering practice, and production context.
 
-| Resource kind | Notes |
-|---|---|
-| ScaledObject | [Reserved file](ScaledObject.md) |
-| ScaledJob | [Reserved file](ScaledJob.md) |
-| TriggerAuthentication | [Reserved file](TriggerAuthentication.md) |
-| ClusterTriggerAuthentication | [Reserved file](ClusterTriggerAuthentication.md) |
+| Topic | Explore |
+| :--- | :--- |
+| ClusterTriggerAuthentication | [Explore](ClusterTriggerAuthentication.md) |
+| ScaledJob | [Explore](ScaledJob.md) |
+| ScaledObject | [Explore](ScaledObject.md) |
+| TriggerAuthentication | [Explore](TriggerAuthentication.md) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

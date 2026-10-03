@@ -1,10 +1,14 @@
-# admissionregistration.k8s.io API resources
+# admissionregistration k8s io
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [MutatingAdmissionPolicy](MutatingAdmissionPolicy/) | v1, v1alpha1, v1beta1 | Cluster |
-| [MutatingAdmissionPolicyBinding](MutatingAdmissionPolicyBinding/) | v1, v1alpha1, v1beta1 | Cluster |
-| [MutatingWebhookConfiguration](MutatingWebhookConfiguration/) | v1 | Cluster |
-| [ValidatingAdmissionPolicy](ValidatingAdmissionPolicy/) | v1 | Cluster |
-| [ValidatingAdmissionPolicyBinding](ValidatingAdmissionPolicyBinding/) | v1 | Cluster |
-| [ValidatingWebhookConfiguration](ValidatingWebhookConfiguration/) | v1 | Cluster |
+Explore admissionregistration k8s io through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| MutatingAdmissionPolicy | [Explore](MutatingAdmissionPolicy/) |
+| MutatingAdmissionPolicyBinding | [Explore](MutatingAdmissionPolicyBinding/) |
+| MutatingWebhookConfiguration | [Explore](MutatingWebhookConfiguration/) |
+| ValidatingAdmissionPolicy | [Explore](ValidatingAdmissionPolicy/) |
+| ValidatingAdmissionPolicyBinding | [Explore](ValidatingAdmissionPolicyBinding/) |
+| ValidatingWebhookConfiguration | [Explore](ValidatingWebhookConfiguration/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

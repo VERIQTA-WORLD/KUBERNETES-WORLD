@@ -1,7 +1,11 @@
-# certificates.k8s.io API resources
+# certificates k8s io
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [CertificateSigningRequest](CertificateSigningRequest/) | v1 | Cluster |
-| [ClusterTrustBundle](ClusterTrustBundle/) | v1, v1beta1 | Cluster |
-| [PodCertificateRequest](PodCertificateRequest/) | v1, v1beta1 | Namespaced |
+Explore certificates k8s io through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| CertificateSigningRequest | [Explore](CertificateSigningRequest/) |
+| ClusterTrustBundle | [Explore](ClusterTrustBundle/) |
+| PodCertificateRequest | [Explore](PodCertificateRequest/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

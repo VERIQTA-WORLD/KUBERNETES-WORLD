@@ -1,8 +1,12 @@
-# rbac.authorization.k8s.io API resources
+# rbac authorization k8s io
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [ClusterRole](ClusterRole/) | v1 | Cluster |
-| [ClusterRoleBinding](ClusterRoleBinding/) | v1 | Cluster |
-| [Role](Role/) | v1 | Namespaced |
-| [RoleBinding](RoleBinding/) | v1 | Namespaced |
+Explore rbac authorization k8s io through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| ClusterRole | [Explore](ClusterRole/) |
+| ClusterRoleBinding | [Explore](ClusterRoleBinding/) |
+| Role | [Explore](Role/) |
+| RoleBinding | [Explore](RoleBinding/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

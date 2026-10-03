@@ -1,14 +1,14 @@
 # Engineer Notebooks
 
-Learning and exercise files are reserved and currently empty.
+Explore Engineer Notebooks through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 Notebook Standards | [Open](01-Notebook-Standards.md) |
-| 02 Evidence and Redaction | [Open](02-Evidence-and-Redaction.md) |
-| Junior | [Open](Junior/) |
-| Mid Level | [Open](Mid-Level/) |
-| Senior | [Open](Senior/) |
-| Shared Templates | [Open](Shared-Templates/) |
+| Topic | Explore |
+| :--- | :--- |
+| Notebook Standards | [Explore](01-Notebook-Standards.md) |
+| Evidence and Redaction | [Explore](02-Evidence-and-Redaction.md) |
+| Junior | [Explore](Junior/) |
+| Mid Level | [Explore](Mid-Level/) |
+| Senior | [Explore](Senior/) |
+| Shared Templates | [Explore](Shared-Templates/) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

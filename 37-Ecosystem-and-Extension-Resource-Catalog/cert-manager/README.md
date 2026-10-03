@@ -1,12 +1,14 @@
-# cert-manager resource catalogue
+# cert manager
 
-These are extension resources, not built-in Kubernetes API kinds. Availability and versions depend on the installed project release. Files are currently empty.
+Explore cert manager through Kubernetes behaviour, engineering practice, and production context.
 
-| Resource kind | Notes |
-|---|---|
-| Certificate | [Reserved file](Certificate.md) |
-| CertificateRequest | [Reserved file](CertificateRequest.md) |
-| Issuer | [Reserved file](Issuer.md) |
-| ClusterIssuer | [Reserved file](ClusterIssuer.md) |
-| Order | [Reserved file](Order.md) |
-| Challenge | [Reserved file](Challenge.md) |
+| Topic | Explore |
+| :--- | :--- |
+| Certificate | [Explore](Certificate.md) |
+| CertificateRequest | [Explore](CertificateRequest.md) |
+| Challenge | [Explore](Challenge.md) |
+| ClusterIssuer | [Explore](ClusterIssuer.md) |
+| Issuer | [Explore](Issuer.md) |
+| Order | [Explore](Order.md) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

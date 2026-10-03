@@ -1,16 +1,16 @@
 # Reliability Backup and Disaster Recovery
 
-Learning and exercise files are reserved and currently empty.
+Explore Reliability Backup and Disaster Recovery through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 etcd Backups | [Open](01-etcd-Backups.md) |
-| 02 Velero | [Open](02-Velero.md) |
-| 03 Application Backups | [Open](03-Application-Backups.md) |
-| 04 Restore Testing | [Open](04-Restore-Testing.md) |
-| 05 Failure Domains | [Open](05-Failure-Domains.md) |
-| 06 Recovery Objectives | [Open](06-Recovery-Objectives.md) |
-| 07 Control Plane Recovery | [Open](07-Control-Plane-Recovery.md) |
-| 08 Cluster Rebuilds | [Open](08-Cluster-Rebuilds.md) |
+| Topic | Explore |
+| :--- | :--- |
+| etcd Backups | [Explore](01-etcd-Backups.md) |
+| Velero | [Explore](02-Velero.md) |
+| Application Backups | [Explore](03-Application-Backups.md) |
+| Restore Testing | [Explore](04-Restore-Testing.md) |
+| Failure Domains | [Explore](05-Failure-Domains.md) |
+| Recovery Objectives | [Explore](06-Recovery-Objectives.md) |
+| Control Plane Recovery | [Explore](07-Control-Plane-Recovery.md) |
+| Cluster Rebuilds | [Explore](08-Cluster-Rebuilds.md) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

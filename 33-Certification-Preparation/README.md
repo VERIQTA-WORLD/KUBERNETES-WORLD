@@ -1,13 +1,13 @@
 # Certification Preparation
 
-Learning and exercise files are reserved and currently empty.
+Explore Certification Preparation through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 CKA | [Open](01-CKA.md) |
-| 02 CKAD | [Open](02-CKAD.md) |
-| 03 CKS | [Open](03-CKS.md) |
-| 04 KCNA | [Open](04-KCNA.md) |
-| 05 KCSA | [Open](05-KCSA.md) |
+| Topic | Explore |
+| :--- | :--- |
+| CKA | [Explore](01-CKA.md) |
+| CKAD | [Explore](02-CKAD.md) |
+| CKS | [Explore](03-CKS.md) |
+| KCNA | [Explore](04-KCNA.md) |
+| KCSA | [Explore](05-KCSA.md) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

@@ -1,9 +1,11 @@
-# Cilium resource catalogue
+# Cilium
 
-These are extension resources, not built-in Kubernetes API kinds. Availability and versions depend on the installed project release. Files are currently empty.
+Explore Cilium through Kubernetes behaviour, engineering practice, and production context.
 
-| Resource kind | Notes |
-|---|---|
-| CiliumNetworkPolicy | [Reserved file](CiliumNetworkPolicy.md) |
-| CiliumClusterwideNetworkPolicy | [Reserved file](CiliumClusterwideNetworkPolicy.md) |
-| CiliumEndpoint | [Reserved file](CiliumEndpoint.md) |
+| Topic | Explore |
+| :--- | :--- |
+| CiliumClusterwideNetworkPolicy | [Explore](CiliumClusterwideNetworkPolicy.md) |
+| CiliumEndpoint | [Explore](CiliumEndpoint.md) |
+| CiliumNetworkPolicy | [Explore](CiliumNetworkPolicy.md) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

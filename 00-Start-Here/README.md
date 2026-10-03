@@ -1,14 +1,14 @@
 # Start Here
 
-Learning and exercise files are reserved and currently empty.
+Explore Start Here through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 How to Use | [Open](01-How-to-Use.md) |
-| 02 Learning Paths | [Open](02-Learning-Paths.md) |
-| 03 Lab Environments | [Open](03-Lab-Environments.md) |
-| 04 Version and Compatibility Guide | [Open](04-Version-and-Compatibility-Guide.md) |
-| 05 Cost and Cleanup | [Open](05-Cost-and-Cleanup.md) |
-| 06 Evidence and Redaction | [Open](06-Evidence-and-Redaction.md) |
+| Topic | Explore |
+| :--- | :--- |
+| How to Use | [Explore](01-How-to-Use.md) |
+| Learning Paths | [Explore](02-Learning-Paths.md) |
+| Lab Environments | [Explore](03-Lab-Environments.md) |
+| Version and Compatibility Guide | [Explore](04-Version-and-Compatibility-Guide.md) |
+| Cost and Cleanup | [Explore](05-Cost-and-Cleanup.md) |
+| Evidence and Redaction | [Explore](06-Evidence-and-Redaction.md) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

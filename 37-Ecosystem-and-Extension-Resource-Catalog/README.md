@@ -1,30 +1,30 @@
 # Ecosystem and Extension Resource Catalog
 
-Learning and exercise files are reserved and currently empty.
+Explore Ecosystem and Extension Resource Catalog through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 Gateway API | [Open](01-Gateway-API.md) |
-| 02 CSI Snapshots | [Open](02-CSI-Snapshots.md) |
-| 03 Prometheus Operator | [Open](03-Prometheus-Operator.md) |
-| 04 cert manager | [Open](04-cert-manager.md) |
-| 05 Argo CD | [Open](05-Argo-CD.md) |
-| 06 Flux | [Open](06-Flux.md) |
-| 07 Kyverno | [Open](07-Kyverno.md) |
-| 08 Cilium | [Open](08-Cilium.md) |
-| 09 Istio | [Open](09-Istio.md) |
-| 10 Crossplane | [Open](10-Crossplane.md) |
-| 11 KEDA | [Open](11-KEDA.md) |
-| Argo CD | [Open](Argo-CD/) |
-| CSI Snapshots | [Open](CSI-Snapshots/) |
-| Cilium | [Open](Cilium/) |
-| Crossplane | [Open](Crossplane/) |
-| Flux | [Open](Flux/) |
-| Gateway API | [Open](Gateway-API/) |
-| Istio | [Open](Istio/) |
-| KEDA | [Open](KEDA/) |
-| Kyverno | [Open](Kyverno/) |
-| Prometheus Operator | [Open](Prometheus-Operator/) |
-| cert manager | [Open](cert-manager/) |
+| Topic | Explore |
+| :--- | :--- |
+| Gateway API | [Explore](01-Gateway-API.md) |
+| CSI Snapshots | [Explore](02-CSI-Snapshots.md) |
+| Prometheus Operator | [Explore](03-Prometheus-Operator.md) |
+| cert manager | [Explore](04-cert-manager.md) |
+| Argo CD | [Explore](05-Argo-CD.md) |
+| Flux | [Explore](06-Flux.md) |
+| Kyverno | [Explore](07-Kyverno.md) |
+| Cilium | [Explore](08-Cilium.md) |
+| Istio | [Explore](09-Istio.md) |
+| Crossplane | [Explore](10-Crossplane.md) |
+| KEDA | [Explore](11-KEDA.md) |
+| Argo CD | [Explore](Argo-CD/) |
+| CSI Snapshots | [Explore](CSI-Snapshots/) |
+| Cilium | [Explore](Cilium/) |
+| Crossplane | [Explore](Crossplane/) |
+| Flux | [Explore](Flux/) |
+| Gateway API | [Explore](Gateway-API/) |
+| Istio | [Explore](Istio/) |
+| KEDA | [Explore](KEDA/) |
+| Kyverno | [Explore](Kyverno/) |
+| Prometheus Operator | [Explore](Prometheus-Operator/) |
+| cert manager | [Explore](cert-manager/) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

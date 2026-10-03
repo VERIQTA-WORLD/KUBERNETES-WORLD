@@ -1,17 +1,17 @@
 # Architecture Patterns
 
-Learning and exercise files are reserved and currently empty.
+Explore Architecture Patterns through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 Stateless Web | [Open](01-Stateless-Web.md) |
-| 02 Stateful Service | [Open](02-Stateful-Service.md) |
-| 03 Event Driven | [Open](03-Event-Driven.md) |
-| 04 Batch and Scheduled | [Open](04-Batch-and-Scheduled.md) |
-| 05 Multi Tenant | [Open](05-Multi-Tenant.md) |
-| 06 Private Platform | [Open](06-Private-Platform.md) |
-| 07 Multi Cluster | [Open](07-Multi-Cluster.md) |
-| 08 GitOps Platform | [Open](08-GitOps-Platform.md) |
-| 09 Observability Stack | [Open](09-Observability-Stack.md) |
+| Topic | Explore |
+| :--- | :--- |
+| Stateless Web | [Explore](01-Stateless-Web.md) |
+| Stateful Service | [Explore](02-Stateful-Service.md) |
+| Event Driven | [Explore](03-Event-Driven.md) |
+| Batch and Scheduled | [Explore](04-Batch-and-Scheduled.md) |
+| Multi Tenant | [Explore](05-Multi-Tenant.md) |
+| Private Platform | [Explore](06-Private-Platform.md) |
+| Multi Cluster | [Explore](07-Multi-Cluster.md) |
+| GitOps Platform | [Explore](08-GitOps-Platform.md) |
+| Observability Stack | [Explore](09-Observability-Stack.md) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

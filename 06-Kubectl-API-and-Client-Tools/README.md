@@ -1,18 +1,18 @@
 # Kubectl API and Client Tools
 
-Learning and exercise files are reserved and currently empty.
+Explore Kubectl API and Client Tools through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 kubeconfig | [Open](01-kubeconfig.md) |
-| 02 Contexts | [Open](02-Contexts.md) |
-| 03 API Discovery | [Open](03-API-Discovery.md) |
-| 04 kubectl Get and Describe | [Open](04-kubectl-Get-and-Describe.md) |
-| 05 Logs Exec and Debug | [Open](05-Logs-Exec-and-Debug.md) |
-| 06 Apply Patch and Replace | [Open](06-Apply-Patch-and-Replace.md) |
-| 07 Server Side Apply | [Open](07-Server-Side-Apply.md) |
-| 08 Watches and ResourceVersions | [Open](08-Watches-and-ResourceVersions.md) |
-| 09 Client Libraries | [Open](09-Client-Libraries.md) |
-| 10 API Access | [Open](10-API-Access.md) |
+| Topic | Explore |
+| :--- | :--- |
+| kubeconfig | [Explore](01-kubeconfig.md) |
+| Contexts | [Explore](02-Contexts.md) |
+| API Discovery | [Explore](03-API-Discovery.md) |
+| kubectl Get and Describe | [Explore](04-kubectl-Get-and-Describe.md) |
+| Logs Exec and Debug | [Explore](05-Logs-Exec-and-Debug.md) |
+| Apply Patch and Replace | [Explore](06-Apply-Patch-and-Replace.md) |
+| Server Side Apply | [Explore](07-Server-Side-Apply.md) |
+| Watches and ResourceVersions | [Explore](08-Watches-and-ResourceVersions.md) |
+| Client Libraries | [Explore](09-Client-Libraries.md) |
+| API Access | [Explore](10-API-Access.md) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

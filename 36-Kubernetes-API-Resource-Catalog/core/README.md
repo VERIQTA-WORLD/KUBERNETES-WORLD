@@ -1,21 +1,25 @@
-# core API resources
+# core
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [Binding](Binding/) | v1 | Namespaced |
-| [ComponentStatus](ComponentStatus/) | v1 | Cluster |
-| [ConfigMap](ConfigMap/) | v1 | Namespaced |
-| [Endpoints](Endpoints/) | v1 | Namespaced |
-| [Event](Event/) | v1 | Namespaced |
-| [LimitRange](LimitRange/) | v1 | Namespaced |
-| [Namespace](Namespace/) | v1 | Cluster |
-| [Node](Node/) | v1 | Cluster |
-| [PersistentVolume](PersistentVolume/) | v1 | Cluster |
-| [PersistentVolumeClaim](PersistentVolumeClaim/) | v1 | Namespaced |
-| [Pod](Pod/) | v1 | Namespaced |
-| [PodTemplate](PodTemplate/) | v1 | Namespaced |
-| [ReplicationController](ReplicationController/) | v1 | Namespaced |
-| [ResourceQuota](ResourceQuota/) | v1 | Namespaced |
-| [Secret](Secret/) | v1 | Namespaced |
-| [Service](Service/) | v1 | Namespaced |
-| [ServiceAccount](ServiceAccount/) | v1 | Namespaced |
+Explore core through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| Binding | [Explore](Binding/) |
+| ComponentStatus | [Explore](ComponentStatus/) |
+| ConfigMap | [Explore](ConfigMap/) |
+| Endpoints | [Explore](Endpoints/) |
+| Event | [Explore](Event/) |
+| LimitRange | [Explore](LimitRange/) |
+| Namespace | [Explore](Namespace/) |
+| Node | [Explore](Node/) |
+| PersistentVolume | [Explore](PersistentVolume/) |
+| PersistentVolumeClaim | [Explore](PersistentVolumeClaim/) |
+| Pod | [Explore](Pod/) |
+| PodTemplate | [Explore](PodTemplate/) |
+| ReplicationController | [Explore](ReplicationController/) |
+| ResourceQuota | [Explore](ResourceQuota/) |
+| Secret | [Explore](Secret/) |
+| Service | [Explore](Service/) |
+| ServiceAccount | [Explore](ServiceAccount/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)

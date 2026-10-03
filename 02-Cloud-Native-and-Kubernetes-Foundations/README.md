@@ -1,16 +1,16 @@
 # Cloud Native and Kubernetes Foundations
 
-Learning and exercise files are reserved and currently empty.
+Explore Cloud Native and Kubernetes Foundations through Kubernetes behaviour, engineering practice, and production context.
 
-| Topic or folder | Open |
-|---|---|
-| 01 Containers and Orchestration | [Open](01-Containers-and-Orchestration.md) |
-| 02 Declarative State | [Open](02-Declarative-State.md) |
-| 03 Reconciliation | [Open](03-Reconciliation.md) |
-| 04 Labels and Selectors | [Open](04-Labels-and-Selectors.md) |
-| 05 Namespaces | [Open](05-Namespaces.md) |
-| 06 API Groups and Versions | [Open](06-API-Groups-and-Versions.md) |
-| 07 Object Metadata | [Open](07-Object-Metadata.md) |
-| 08 Ownership and Garbage Collection | [Open](08-Ownership-and-Garbage-Collection.md) |
+| Topic | Explore |
+| :--- | :--- |
+| Containers and Orchestration | [Explore](01-Containers-and-Orchestration.md) |
+| Declarative State | [Explore](02-Declarative-State.md) |
+| Reconciliation | [Explore](03-Reconciliation.md) |
+| Labels and Selectors | [Explore](04-Labels-and-Selectors.md) |
+| Namespaces | [Explore](05-Namespaces.md) |
+| API Groups and Versions | [Explore](06-API-Groups-and-Versions.md) |
+| Object Metadata | [Explore](07-Object-Metadata.md) |
+| Ownership and Garbage Collection | [Explore](08-Ownership-and-Garbage-Collection.md) |
 
-[Return to Kubernetes World](../README.md)
+[Return to KUBERNETES-WORLD](../README.md)

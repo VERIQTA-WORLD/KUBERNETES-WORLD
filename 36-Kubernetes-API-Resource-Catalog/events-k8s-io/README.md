@@ -1,5 +1,9 @@
-# events.k8s.io API resources
+# events k8s io
 
-| Kind | Versions | Scope |
-|---|---|---|
-| [Event](Event/) | v1 | Namespaced |
+Explore events k8s io through Kubernetes behaviour, engineering practice, and production context.
+
+| Topic | Explore |
+| :--- | :--- |
+| Event | [Explore](Event/) |
+
+[Return to KUBERNETES-WORLD](../../README.md)
